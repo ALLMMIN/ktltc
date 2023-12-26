@@ -14,7 +14,13 @@ import img13 from "@assets/จดหมายข่าว/12.png";
 import img14 from "@assets/จดหมายข่าว/13.jpg";
 import img15 from "@assets/จดหมายข่าว/14.gif";
 import img16 from "@assets/จดหมายข่าว/15.jpg";
+import img17 from "@assets/จดหมายข่าว/16.jpg";
 
+export const Data16 = [
+  {
+    img16: img17,
+  },
+];
 export const Data15 = [
   {
     img15: img16,
