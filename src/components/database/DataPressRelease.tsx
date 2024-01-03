@@ -81,8 +81,74 @@ import img38 from "@assets/ข่าวประชาสัมพันธ์/2
 import img39 from "@assets/ข่าวประชาสัมพันธ์/Christmas/414695255_2773267582825763_1711551872989877101_n.jpg";
 import img40 from "@assets/ข่าวประชาสัมพันธ์/28/1.jpg";
 import img41 from "@assets/ข่าวประชาสัมพันธ์/29/01.jpg";
+import img42 from "@assets/ข่าวประชาสัมพันธ์/30/25.jpg";
+import img43 from "@assets/ข่าวประชาสัมพันธ์/31/07.jpg";
+import img44 from "@assets/ข่าวประชาสัมพันธ์/32/13.jpg";
+import img45 from "@assets/ข่าวประชาสัมพันธ์/33/3.jpg";
+import img46 from "@assets/ข่าวประชาสัมพันธ์/33/5.jpg";
+import img47 from "@assets/ข่าวประชาสัมพันธ์/34/1.jpg";
+import img48 from "@assets/ข่าวประชาสัมพันธ์/35/3.png";
+import img49 from "@assets/ข่าวประชาสัมพันธ์/36/1.png";
+
+import { ChristmasDay1 } from "../homepage/ข่าวประชาสัมพันธ์/ChristmasDay1";
+import { ChristmasDay2 } from "../homepage/ข่าวประชาสัมพันธ์/ChristmasDay2";
+import { ChristmasDay3 } from "../homepage/ข่าวประชาสัมพันธ์/ChristmasDay3";
+import { QuotaRound1 } from "../homepage/ข่าวประชาสัมพันธ์/QuotaRound1";
+import { HappNewYour2024 } from "../homepage/ข่าวประชาสัมพันธ์/HappNewYour2024";
+import { MrThursday } from "../homepage/ข่าวประชาสัมพันธ์/MrThursday";
+import { BasicSkillsCompetition } from "../homepage/ข่าวประชาสัมพันธ์/BasicSkillsCompetition";
+import { VNET } from "../homepage/ข่าวประชาสัมพันธ์/VNET";
 
 export const DataPressRelease = [
+  {
+    name: `ประกาศรายชื่อผู้ที่มีสิทธิ์สอบ V-NET`,
+    backgroundImage: img49,
+    review: ` `,
+    url: <VNET />,
+  },
+  {
+    name: `วิทยาลัยเทคนิคกันทรลักษ์ #เทคนิคกันทร์`,
+    backgroundImage: img48,
+    review: `ขอเเสดงความยินดีกับ การเเข่งขันทักษะพื้นฐาน...`,
+    url: <BasicSkillsCompetition />,
+  },
+  {
+    name: `วันที่ 2 มกราคม 2567 วิทยาลัยเทคนิคกันทรลักษ์`,
+    backgroundImage: img47,
+    review: ` "ยินดีต้อนรับ"
+    นายพฤหัสบดี ผลวิสุทธิ์ เนื่องในโอกาสบรรจุ เเละ...`,
+    url: <MrThursday />,
+  },
+  {
+    name: ` วิทยาลัยเทคนิคกันทรลักษ์ สวัสดีปีใหม่ ๒๕๖๗`,
+    backgroundImage: img46,
+    review: `ในวารดิถีขึ้นปีใหม่ ขออำนาจสิ่งศักดิ์สิทธิ์ดลบัลดาลให้ท่านได้...`,
+    url: <HappNewYour2024 />,
+  },
+  {
+    name: ` ประกาศรายชื่อผู้ที่มีสิทธิ์เข้าศึกษาต่อ (โควตารอบ1)`,
+    backgroundImage: img45,
+    review: `ละดับ ปวช. เเละ ปวส. ปีการศึกษา 2567 วิทยาลัยเทคนิคกันทรลักษ์...`,
+    url: <QuotaRound1 />,
+  },
+  {
+    name: `( Set 3) เทศกาลเเห่งความสุขกลับมาอีกครั้ง `,
+    backgroundImage: img44,
+    review: `เมื่อวันที่ 27 ธันวาคม 2566  วิทยาลัยเทคนิคกันทรลักษ์ได้จัด...`,
+    url: <ChristmasDay3 />,
+  },
+  {
+    name: `( Set 2) เทศกาลเเห่งความสุขกลับมาอีกครั้ง `,
+    backgroundImage: img43,
+    review: `เมื่อวันที่ 27 ธันวาคม 2566  วิทยาลัยเทคนิคกันทรลักษ์ได้จัด...`,
+    url: <ChristmasDay2 />,
+  },
+  {
+    name: `( Set 1) เทศกาลเเห่งความสุขกลับมาอีกครั้ง `,
+    backgroundImage: img42,
+    review: `เมื่อวันที่ 27 ธันวาคม 2566  วิทยาลัยเทคนิคกันทรลักษ์ได้จัด...`,
+    url: <ChristmasDay1 />,
+  },
   {
     name: `วิทยาลัยเทคนิคกันทรลักษ์`,
     backgroundImage: img41,
