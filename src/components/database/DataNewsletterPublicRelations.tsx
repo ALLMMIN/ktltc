@@ -14,6 +14,8 @@ import img15 from "@assets/จดหมายข่าว/13.jpg";
 import img16 from "@assets/จดหมายข่าว/14.gif";
 import img17 from "@assets/จดหมายข่าว/15.jpg";
 import img18 from "@assets/จดหมายข่าว/16.jpg";
+import img19 from "@assets/จดหมายข่าว/17.jpg";
+import img20 from "@assets/จดหมายข่าว/18.jpg";
 
 import { ApplyForStudy } from "@components/homepage/จดหมายข่าวประชาสัมพันธ์/ApplyForStudy";
 import { DrivingSkills } from "@components/homepage/จดหมายข่าวประชาสัมพันธ์/DrivingSkills";
@@ -31,24 +33,38 @@ import { ContestHost } from "../homepage/จดหมายข่าวประ
 import { MrYotphon } from "../homepage/จดหมายข่าวประชาสัมพันธ์/MrYotphon";
 import { SummaryOfMeasures } from "../homepage/จดหมายข่าวประชาสัมพันธ์/SummaryOfMeasures";
 import { FixItCenter } from "../homepage/จดหมายข่าวประชาสัมพันธ์/FixItCenter";
+import { FixItCenter1 } from "../homepage/จดหมายข่าวประชาสัมพันธ์/FixItCenter1";
+import { SafetyCampaign } from "../homepage/จดหมายข่าวประชาสัมพันธ์/SafetyCampaign";
 
 export const DataNewsletterPublicRelations = [
   {
+    name: `วันที่ 28 ธันวาคม 2566`,
+    backgroundImage: img20,
+    review: `นางสาวทักษิณา ชมจันทร์ ผู้อำนวยการ...`,
+    url: <SafetyCampaign />,
+  },
+  {
+    name: `วันที่ 26 ธันวาคม 2566`,
+    backgroundImage: img19,
+    review: `วิทยาลัยเทคนิคกันทรลักษ์ เทคนิคกันทร์...`,
+    url: <FixItCenter1 />,
+  },
+  {
     name: `เมื่อ วันที่ 25 ธันวาคม 2566 `,
     backgroundImage: img18,
-    review: `นำโดย นางสาวทักษิณา ชม ...`,
+    review: `นำโดย นางสาวทักษิณา ชม...`,
     url: <FixItCenter />,
   },
   {
     name: ` นางสาวทักษิณา ชมจันทร์  `,
     backgroundImage: img17,
-    review: `ผู้อำนวยการวิทยาลัยเทคนิคกันทรลักษ์ มอบหมายให้  ...`,
+    review: `ผู้อำนวยการวิทยาลัยเทคนิคกันทรลักษ์ มอบหมายให้...`,
     url: <SummaryOfMeasures />,
   },
   {
     name: `วิทยาลัยเทคนิคกันทรลักษ์ `,
     backgroundImage: img16,
-    review: `ขอเเสดงความยินดี กับ นายยศพล เวณุโกเศศ ...`,
+    review: `ขอเเสดงความยินดี กับ นายยศพล เวณุโกเศศ...`,
     url: <MrYotphon />,
   },
   {
@@ -66,7 +82,7 @@ export const DataNewsletterPublicRelations = [
   {
     name: `วิทยาลัยเทคนิคกันทรลักษ์ `,
     backgroundImage: img15,
-    review: `ได้รับมอบป้ายเจ้าภาพจัดการแข่งขันสิ่งประดิษฐ์ของคนรุ่นใหม่ ระดับอาชีวศึกษาจังหวัด ประจำปีการศึกษา 2567 ...`,
+    review: `ได้รับมอบป้ายเจ้าภาพจัดการแข่งขันสิ่งประดิษฐ์ของคนรุ่นใหม่ ระดับอาชีวศึกษาจังหวัด ประจำปีการศึกษา 2567...`,
     url: <ContestHost />,
   },
   {
