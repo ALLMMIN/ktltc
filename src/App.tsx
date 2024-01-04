@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 
-import { HashRouter as Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "./pages/about/About";
 import Index from "./pages/Index";
 import ServiceDepartment from "./pages/service-department/ServiceDepartment";
