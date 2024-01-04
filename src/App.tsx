@@ -44,7 +44,6 @@ export default function () {
           element={<EducationalInstitutionInformation />}
         />
         <Route path="/Test" element={<Test />} />
-
       </Routes>
     </>
   );

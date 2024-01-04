@@ -35,7 +35,7 @@ export function VNET() {
                   {Data48.map((Data48) => (
                     <div className="mb-4 group relative shadow-lg rounded-xl px-[auto] py-[300px]">
                       <div
-                        className="absolute inset-0 bg-cover bg-center rounded-xl "
+                        className="absolute inset-0 bg-cover bg-center rounded-xl hover:scale-110 transition duration-500 cursor-pointer object-cover"
                         style={{
                           backgroundImage: `url(${Data48.img48})`,
                         }}

@@ -1,4 +1,4 @@
-import {Layout} from "@/Layout";
+import { Layout } from "@/Layout";
 import { Card, CardHeader } from "@material-tailwind/react";
 
 import pac1 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/ad2.jpg";

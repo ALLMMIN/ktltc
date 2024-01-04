@@ -41,7 +41,7 @@ export function Congratulations() {
                   {Data39.map((Data39) => (
                     <div className="mb-4 group relative shadow-lg rounded-xl px-[144px] py-[144px]  ">
                       <div
-                        className="absolute inset-0 bg-cover bg-center rounded-xl "
+                        className="absolute inset-0 bg-cover bg-center rounded-xl hover:scale-110 transition duration-500 cursor-pointer object-cover"
                         style={{
                           backgroundImage: `url(${Data39.img39})`,
                         }}

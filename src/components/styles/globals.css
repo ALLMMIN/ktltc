@@ -89,3 +89,13 @@ p {
     font-size: 24px;
   }
 }
+
+.pressrelease {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}

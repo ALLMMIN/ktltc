@@ -23,9 +23,6 @@ export default function SwipperNewsAnnouncement() {
             },
           }}
           freeMode={true}
-          pagination={{
-            clickable: true,
-          }}
           modules={[FreeMode, Pagination]}
           className="max-w-[90%]   lg:max-w-[80%] " // min-w-[90%]
         >
@@ -34,7 +31,7 @@ export default function SwipperNewsAnnouncement() {
             <SwiperSlide key={item.name}>
               <div className="mb-4 group relative shadow-lg text-white rounded-xl px-6 py-8  h-[150px] lg:h-[200px] lg:w-[full] overflow-hidden cursor-pointer lg:max-h-[180px]  h-24 min-h-0 hover:min-h-full">
                 <div
-                  className="absolute inset-0 bg-contain bg-center " //    lg:max-h-[180px] sm:max-h-[110px] rounded-lg
+                  className="absolute inset-0 bg-contain bg-center hover:scale-110 transition duration-500 cursor-pointer object-cover" //    lg:max-h-[180px] sm:max-h-[110px] rounded-lg
                   style={{ backgroundImage: `url(${item.backgroundImage})` }}
                 />
 

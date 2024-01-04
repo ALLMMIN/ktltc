@@ -23,9 +23,6 @@ export default function SwipperPressRelease() {
             },
           }}
           freeMode={true}
-          pagination={{
-            clickable: true,
-          }}
           modules={[FreeMode, Pagination]}
           className="max-w-[90%] lg:max-w-[80%] "
         >
@@ -34,7 +31,7 @@ export default function SwipperPressRelease() {
             <SwiperSlide key={item.name}>
               <div className="mb-4 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[150px] lg:h-[200px] lg:w-[full] overflow-hidden cursor-pointer      ">
                 <div
-                  className="absolute inset-0 bg-cover bg-center  "
+                  className="absolute inset-0 bg-cover bg-center hover:scale-110 transition duration-500 cursor-pointer object-cover "
                   style={{ backgroundImage: `url(${item.backgroundImage})` }}
                 />
 
