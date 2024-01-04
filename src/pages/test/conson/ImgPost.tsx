@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import "./ImgPost.css";
 
-export const ImgPost = (props: { img: any; onBgClick: any; }) => {
+export const ImgPost = (props: { img: any; onBgClick: any }) => {
   const { img, onBgClick } = props;
   return (
     <div className="img-post">

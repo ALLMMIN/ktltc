@@ -1,10 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import "./AppSearch.css";
 
 export const AppSearch = (props: { value: any; onValueChange: any }) => {
   const { value, onValueChange } = props;
   return (
-    <div className="app-search">
+    <div className="app-search p-4 ">
       <input
         className="app-search-input"
         type="text"

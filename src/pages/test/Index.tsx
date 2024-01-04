@@ -43,7 +43,7 @@ export const App = () => {
       <section className="app-section">
         <div className="app-container">
           <AppSearch value={searchText} onValueChange={setSearchText} />
-          <div className="app-grid">{imgItems}</div>
+          <div className=" ">{imgItems}</div>
         </div>
       </section>
       {imgPost}
