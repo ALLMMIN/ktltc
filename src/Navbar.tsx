@@ -351,8 +351,7 @@ function NavList() {
         className="font-medium"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4">
-          
-          <Link to='/Test'>ติดต่อ</Link>
+          <Link to="/Test">ติดต่อ</Link>
         </ListItem>
       </Typography>
     </List>
