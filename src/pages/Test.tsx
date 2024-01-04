@@ -1,5 +1,4 @@
 import { Layout } from "@/Layout";
-import l1 from "@assets/01.png";
 
 export default function Test() {
   return (
@@ -18,12 +17,6 @@ export default function Test() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="max-w-[300px] max-h-[300px] overflow-hidden">
-          <img
-            src={l1}
-            className="w-60  hover:scale-110 transition duration-500 cursor-pointer object-cover"
-          ></img>
         </div>
 
         {/* <div className="pb-24 pt-24">
