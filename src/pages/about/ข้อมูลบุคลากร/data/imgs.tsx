@@ -10,7 +10,6 @@ import a9 from "@assets/ข้อมูลบุคลากร/09.jpg";
 import a10 from "@assets/ข้อมูลบุคลากร/10.jpg";
 import a11 from "@assets/ข้อมูลบุคลากร/11.jpg";
 import a12 from "@assets/ข้อมูลบุคลากร/12.jpg";
-import a13 from "@assets/ข้อมูลบุคลากร/13.jpg";
 import a14 from "@assets/ข้อมูลบุคลากร/14.jpg";
 import a15 from "@assets/ข้อมูลบุคลากร/15.jpg";
 import a16 from "@assets/ข้อมูลบุคลากร/16.jpg";
@@ -24,7 +23,6 @@ import a25 from "@assets/ข้อมูลบุคลากร/25.jpg";
 import a26 from "@assets/ข้อมูลบุคลากร/26.jpg";
 import a28 from "@assets/ข้อมูลบุคลากร/28.jpg";
 import a29 from "@assets/ข้อมูลบุคลากร/29.jpg";
-import a30 from "@assets/ข้อมูลบุคลากร/30.jpg";
 import a31 from "@assets/ข้อมูลบุคลากร/31.jpg";
 import a32 from "@assets/ข้อมูลบุคลากร/32.jpg";
 import a33 from "@assets/ข้อมูลบุคลากร/33.jpg";
@@ -430,7 +428,7 @@ const imgs = [
     thumbnailUrl: a103,
   },
   {
-    title: "นางคนองรักษ์ ป้อนหิน",
+    title: "นางคนองรักษ์ ป้อมหิน",
     department: "ครูแผนกวิชา: การบัญชี",
     thumbnailUrl: a105,
   },
@@ -503,11 +501,6 @@ const imgs = [
     thumbnailUrl: a122,
   },
   {
-    title: "นายณฐกร สุขพิสิษฐ",
-    department: "เจ้าหน้าที่งานกิจกรรม",
-    thumbnailUrl: a30,
-  },
-  {
     title: "นางสาวกชพรรณ ปะเพระตา",
     department: "เจ้าหน้าที่งานพัสดุ",
     thumbnailUrl: a29,
@@ -518,24 +511,17 @@ const imgs = [
     thumbnailUrl: a23,
   },
   {
-    title: "นายณญกร สุขพิสิษฐ",
-    department: "เจ้าหน้าที่งานกิจกรรม",
-    thumbnailUrl: a13,
-  },
-
-  {
-    title: "นายภานุวัตน์ สุขชาติ",
+    title: "นายภานุวัฒน์ สุขชาติ",
     department: "เจ้าหน้าที่งานแนะแนว (กสศ.)",
     thumbnailUrl: a40,
   },
-
   {
     title: "นางสาวภัคสุรีย์รัช ศีลให้อยู่สุข",
     department: "เจ้าหน้าที่ธุรการ งานส่งเสริมการค้า ฯ",
     thumbnailUrl: a1,
   },
   {
-    title: "นางสาววิไลพร อรรคชัย",
+    title: "นางวิไลพร อรรคชัย",
     department: "เจ้าหน้าที่งานวิจัย ฯ/งานประกันคุณภาพ ฯ",
     thumbnailUrl: a9,
   },
