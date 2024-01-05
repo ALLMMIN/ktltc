@@ -515,7 +515,7 @@ const imgs = [
     thumbnailUrl: a30,
   },
   {
-    title: "นางสาวกชพรรณ ปะเพราะตา",
+    title: "นางสาวกชพรรณ ปะเพระตา",
     department: "เจ้าหน้าที่งานพัสดุ",
     thumbnailUrl: a29,
   },
