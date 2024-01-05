@@ -22,7 +22,6 @@ import a23 from "@assets/ข้อมูลบุคลากร/23.jpg";
 import a24 from "@assets/ข้อมูลบุคลากร/24.jpg";
 import a25 from "@assets/ข้อมูลบุคลากร/25.jpg";
 import a26 from "@assets/ข้อมูลบุคลากร/26.jpg";
-import a27 from "@assets/ข้อมูลบุคลากร/27.jpg";
 import a28 from "@assets/ข้อมูลบุคลากร/28.jpg";
 import a29 from "@assets/ข้อมูลบุคลากร/29.jpg";
 import a30 from "@assets/ข้อมูลบุคลากร/30.jpg";
@@ -44,7 +43,6 @@ import a46 from "@assets/ข้อมูลบุคลากร/46.jpg";
 import a47 from "@assets/ข้อมูลบุคลากร/47.jpg";
 import a49 from "@assets/ข้อมูลบุคลากร/49.jpg";
 import a50 from "@assets/ข้อมูลบุคลากร/50.jpg";
-import a51 from "@assets/ข้อมูลบุคลากร/51.jpg";
 import a52 from "@assets/ข้อมูลบุคลากร/52.jpg";
 import a53 from "@assets/ข้อมูลบุคลากร/53.jpg";
 import a54 from "@assets/ข้อมูลบุคลากร/54.jpg";
@@ -505,11 +503,6 @@ const imgs = [
     thumbnailUrl: a122,
   },
   {
-    title: "นายวิษรุ เครือทอง.",
-    department: "เจ้าหน้าที่งานโครงการพิเศษ/งานปกครอง",
-    thumbnailUrl: a27,
-  },
-  {
     title: "นายณฐกร สุขพิสิษฐ",
     department: "เจ้าหน้าที่งานกิจกรรม",
     thumbnailUrl: a30,
@@ -592,11 +585,7 @@ const imgs = [
     department: "เจ้าหน้าที่งานบุคคลากร",
     thumbnailUrl: a50,
   },
-  {
-    title: "นางสาวภัชรพร พ่อค้า",
-    department: "เจ้าหน้าที่ธุรการ",
-    thumbnailUrl: a51,
-  },
+
   {
     title: "นางสาวปวีณา คำภูบาล",
     department: "เจ้าหน้าที่งานพัสดุ",
