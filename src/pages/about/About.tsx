@@ -1,11 +1,9 @@
- 
- 
 import { Executive } from "./ExecutiveDirectory";
 import { Educationa } from "./EducationalInstitutionInformation";
-import { Personnel } from "./PersonnelInformation";
 import { GovernmentActionPlan } from "./GovernmentActionPlan";
 import { StrategicPlan } from "./StrategicPlan";
 import { Layout } from "@/Layout";
+import { Personnel } from "./ข้อมูลบุคลากร/PersonnelInformation";
 
 export default function About() {
   return (

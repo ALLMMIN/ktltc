@@ -34,7 +34,6 @@ import a35 from "@assets/ข้อมูลบุคลากร/35.jpg";
 import a36 from "@assets/ข้อมูลบุคลากร/36.jpg";
 import a37 from "@assets/ข้อมูลบุคลากร/37.jpg";
 import a38 from "@assets/ข้อมูลบุคลากร/38.jpg";
-import a39 from "@assets/ข้อมูลบุคลากร/39.jpg";
 import a40 from "@assets/ข้อมูลบุคลากร/40.jpg";
 import a41 from "@assets/ข้อมูลบุคลากร/41.jpg";
 import a42 from "@assets/ข้อมูลบุคลากร/42.jpg";
@@ -123,11 +122,6 @@ const imgs = [
     title: "นายเรืองยศ อรัญรักษ์",
     department: "ครูแผนกวิชา: สามัญสัมพันธ์",
     thumbnailUrl: a32,
-  },
-  {
-    title: "นางสาวขนิษฐา แสงเนตร",
-    department: "ครูแผนกวิชา: สามัญสัมพันธ์",
-    thumbnailUrl: a39,
   },
   {
     title: "นางสาวทราทิตย์ ชิดชม",

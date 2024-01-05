@@ -5,7 +5,7 @@ export const AppSearch = (props: { value: any; onValueChange: any }) => {
   return (
     <div className="app-search p-4 ">
       <input
-        className="app-search-input"
+        className="app-search-input rounded-full"
         type="text"
         value={value}
         placeholder="ค้นหา"

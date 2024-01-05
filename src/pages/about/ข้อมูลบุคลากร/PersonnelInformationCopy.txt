@@ -1,6 +1,6 @@
 import { Card, CardHeader } from "@material-tailwind/react";
 
-import bk1 from "@assets/ข้อมูลบุคลากร/1.jpg";
+import bk1 from "@assets/ข้อมูลบุคลากร/01.jpg";
 import bk2 from "@assets/ข้อมูลบุคลากร/2.jpg";
 import bk3 from "@assets/ข้อมูลบุคลากร/3.jpg";
 import bk4 from "@assets/ข้อมูลบุคลากร/4.jpg";

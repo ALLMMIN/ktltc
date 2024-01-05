@@ -8,12 +8,11 @@ import Department from "./pages/department/Department";
 import Contact from "./pages/contact/Contact";
 import ExecutiveDirectory from "./pages/about/ExecutiveDirectory";
 import EducationalInstitutionInformation from "./pages/about/EducationalInstitutionInformation";
-import PersonnelInformation from "./pages/about/PersonnelInformation";
+import PersonnelInformation from "./pages/about/ข้อมูลบุคลากร/PersonnelInformation";
 import PlansAndCooperationTitle from "./pages/service-department/PlansAndCooperation";
 import GovernmentActionPlantitle from "./pages/about/GovernmentActionPlan";
 import StrategicPlantitle from "./pages/about/StrategicPlan";
 import IndexService from "./pages/service/Index";
-import Test from "./pages/Test";
 
 export default function () {
   return (
@@ -43,7 +42,6 @@ export default function () {
           path="/EducationalInstitutionInformation"
           element={<EducationalInstitutionInformation />}
         />
-        <Route path="/Test" element={<Test />} />
       </Routes>
     </>
   );

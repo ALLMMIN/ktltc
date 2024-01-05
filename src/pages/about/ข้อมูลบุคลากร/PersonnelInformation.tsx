@@ -3,17 +3,9 @@ import { AppSearch } from "./conson/AppSearch";
 import { ImgItem } from "./conson/ImgItem";
 import { ImgPost } from "./conson/ImgPost";
 import imgs from "./data/imgs";
+import { Layout } from "@/Layout";
 
-export default function Index() {
-  return (
-    <>
-      <div>index Test</div>
-      <App />
-    </>
-  );
-}
-
-export const App = () => {
+export const Personnel = () => {
   const [selectedImg, setSelectedImg] = useState(null);
   const [searchText, setSearchText] = useState("");
 
@@ -43,7 +35,7 @@ export const App = () => {
       <section className="app-section">
         <div className="app-container">
           <AppSearch value={searchText} onValueChange={setSearchText} />
-          <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 py-4">
             {imgItems}
           </div>
         </div>
@@ -52,3 +44,19 @@ export const App = () => {
     </div>
   );
 };
+
+export default function PersonnelInformation() {
+  return (
+    <>
+      <Layout>
+        <div className="py-6 ">
+          <div className="text-2xl font-bold text-center">ข้อมูลบุคลากร</div>
+          <div className="text-md text-glo-100 pl-2 uppercase font-bold text-center">
+            Personnel information
+          </div>
+        </div>
+        <Personnel />
+      </Layout>
+    </>
+  );
+}
