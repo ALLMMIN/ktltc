@@ -107,6 +107,7 @@ import a120 from "@assets/ข้อมูลบุคลากร/110.jpg";
 import a121 from "@assets/ข้อมูลบุคลากร/121.jpg";
 import a122 from "@assets/ข้อมูลบุคลากร/122.jpg";
 import a123 from "@assets/ข้อมูลบุคลากร/123.jpg";
+import a124 from "@assets/ข้อมูลบุคลากร/124.jpg";
 
 const imgs = [
   {
@@ -514,6 +515,11 @@ const imgs = [
     title: "นายภานุวัฒน์ สุขชาติ",
     department: "เจ้าหน้าที่งานแนะแนว (กสศ.)",
     thumbnailUrl: a40,
+  },
+  {
+    title: "นางสาวขวัญสุดา  สุวรรณ",
+    department: "งานครูที่ปรึกษาและงานแนะแนวฯ",
+    thumbnailUrl: a124,
   },
   {
     title: "นางสาวภัคสุรีย์รัช ศีลให้อยู่สุข",
