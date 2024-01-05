@@ -613,7 +613,7 @@ const imgs = [
     thumbnailUrl: a54,
   },
   {
-    title: "นางาสวจุฑามาศ ไชยคุณ",
+    title: "นางสาวจุฑามาศ ไชยคุณ",
     department: "เจ้าหน้าที่งานวัดผลและประเมินผล",
     thumbnailUrl: a55,
   },
