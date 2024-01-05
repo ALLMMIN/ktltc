@@ -1010,7 +1010,104 @@ import img1472 from "@assets/ข่าวประชาสัมพันธ์
 import img1473 from "@assets/ข่าวประชาสัมพันธ์/36/21.jpg";
 import img1474 from "@assets/ข่าวประชาสัมพันธ์/36/22.jpg";
 import img1475 from "@assets/ข่าวประชาสัมพันธ์/36/23.jpg";
+import img1476 from "@assets/ข่าวประชาสัมพันธ์/37/01.jpg";
+import img1477 from "@assets/ข่าวประชาสัมพันธ์/37/01.jpg";
+import img1478 from "@assets/ข่าวประชาสัมพันธ์/37/02.jpg";
+import img1479 from "@assets/ข่าวประชาสัมพันธ์/37/03.jpg";
+import img1480 from "@assets/ข่าวประชาสัมพันธ์/37/04.jpg";
+import img1481 from "@assets/ข่าวประชาสัมพันธ์/37/05.jpg";
+import img1482 from "@assets/ข่าวประชาสัมพันธ์/37/06.jpg";
+import img1483 from "@assets/ข่าวประชาสัมพันธ์/37/07.jpg";
+import img1484 from "@assets/ข่าวประชาสัมพันธ์/37/08.jpg";
+import img1485 from "@assets/ข่าวประชาสัมพันธ์/37/09.jpg";
+import img1486 from "@assets/ข่าวประชาสัมพันธ์/37/10.jpg";
+import img1487 from "@assets/ข่าวประชาสัมพันธ์/37/11.jpg";
+import img1488 from "@assets/ข่าวประชาสัมพันธ์/37/12.jpg";
+import img1489 from "@assets/ข่าวประชาสัมพันธ์/37/13.jpg";
+import img1490 from "@assets/ข่าวประชาสัมพันธ์/37/14.jpg";
+import img1491 from "@assets/ข่าวประชาสัมพันธ์/37/15.jpg";
+import img1492 from "@assets/ข่าวประชาสัมพันธ์/37/16.jpg";
+import img1493 from "@assets/ข่าวประชาสัมพันธ์/37/17.jpg";
+import img1494 from "@assets/ข่าวประชาสัมพันธ์/37/18.jpg";
+import img1495 from "@assets/ข่าวประชาสัมพันธ์/37/19.jpg";
+import img1496 from "@assets/ข่าวประชาสัมพันธ์/37/20.jpg";
+import img1497 from "@assets/ข่าวประชาสัมพันธ์/38/1.jpg";
+import img1498 from "@assets/ข่าวประชาสัมพันธ์/38/2.jpg";
+ 
+export const Data50 = [
+  {
+    img50: img1497,
+  },
+  {
+    img50: img1498,
+  }
+]
 
+export const Data49 = [
+  {
+    img49: img1476,
+  },
+  {
+    img49: img1477,
+  },
+  {
+    img49: img1478,
+  },
+  {
+    img49: img1479,
+  },
+  {
+    img49: img1480,
+  },
+  {
+    img49: img1481,
+  },
+  {
+    img49: img1482,
+  },
+  {
+    img49: img1483,
+  },
+  {
+    img49: img1484,
+  },
+  {
+    img49: img1485,
+  },
+  {
+    img49: img1486,
+  },
+  {
+    img49: img1487,
+  },
+  {
+    img49: img1488,
+  },
+  {
+    img49: img1489,
+  },
+  {
+    img49: img1490,
+  },
+  {
+    img49: img1491,
+  },
+  {
+    img49: img1492,
+  },
+  {
+    img49: img1493,
+  },
+  {
+    img49: img1494,
+  },
+  {
+    img49: img1495,
+  },
+  {
+    img49: img1496,
+  },
+]
 export const Data48 = [
   {
     img48: img1453,
