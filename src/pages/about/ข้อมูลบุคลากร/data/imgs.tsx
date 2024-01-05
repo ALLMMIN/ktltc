@@ -177,7 +177,7 @@ const imgs = [
     thumbnailUrl: a92,
   },
   {
-    title: "นางสาวฐิติชญา ถิบาลวงษ์",
+    title: "นางสาวฐิติชญา ภิบาลวงษ์",
     department: "ครูแผนกวิชา: การตลาด",
     thumbnailUrl: a10,
   },
