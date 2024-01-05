@@ -309,7 +309,7 @@ const imgs = [
   },
 
   {
-    title: "Miss.Wang Rayan",
+    title: "Miss.Wang Ruyan",
     department: "ครูอาสาสมัครสอนภาษาจีน",
     thumbnailUrl: a31,
   },
