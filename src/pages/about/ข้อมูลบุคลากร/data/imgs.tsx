@@ -363,7 +363,7 @@ const imgs = [
     thumbnailUrl: a76,
   },
   {
-    title: "นายประดิษญ ใจตรง",
+    title: "นายประดิษฐ ใจตรง",
     department: "ครูแผนกวิชา: ช่างยนต์",
     thumbnailUrl: a77,
   },
