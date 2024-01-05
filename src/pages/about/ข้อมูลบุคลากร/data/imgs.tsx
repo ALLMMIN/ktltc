@@ -129,7 +129,7 @@ const imgs = [
     thumbnailUrl: a79,
   },
   {
-    title: "นางธิตา สมนิยาม",
+    title: "นางธนิตา สมนิยาม",
     department: "ครูแผนกวิชา: สามัญสัมพันธ์",
     thumbnailUrl: a81,
   },
