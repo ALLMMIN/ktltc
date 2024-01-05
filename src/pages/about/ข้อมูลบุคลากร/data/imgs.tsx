@@ -263,7 +263,7 @@ const imgs = [
     thumbnailUrl: a26,
   },
   {
-    title: "นายวิทยา ลัทธิมนตร์",
+    title: "นายวิทยา ลัทธิมนต์",
     department: "ครูแผนกวิชา: คอมพิวเตอร์ธุรกิจ",
     thumbnailUrl: a104,
   },
