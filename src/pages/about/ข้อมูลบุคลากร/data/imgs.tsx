@@ -422,7 +422,7 @@ const imgs = [
     thumbnailUrl: a100,
   },
   {
-    title: "นางวันนทนา วิศรีสิทธื์",
+    title: "นางวันทนา วิศรีสิทธิ์",
     department: "ครูแผนกวิชา: การบัญชี",
     thumbnailUrl: a101,
   },
