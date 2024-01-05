@@ -169,7 +169,7 @@ const imgs = [
     thumbnailUrl: a88,
   },
   {
-    title: "นางสาวกนพร พวงศรี",
+    title: "นางสาวกนกพร พวงศรี",
     department: "ครูแผนกวิชา: สามัญสัมพันธ์",
     thumbnailUrl: a89,
   },
