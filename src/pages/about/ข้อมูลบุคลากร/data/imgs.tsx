@@ -385,7 +385,7 @@ const imgs = [
     thumbnailUrl: a93,
   },
   {
-    title: "นายสันติ ไชนประดิษฐ์",
+    title: "นายสันติ ไชยประดิษฐ์",
     department: "ครูแผนกวิชา: ช่างอิเล็กทรอนิกส์",
     thumbnailUrl: a94,
   },
