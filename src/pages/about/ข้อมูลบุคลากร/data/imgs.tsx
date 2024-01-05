@@ -427,7 +427,7 @@ const imgs = [
     thumbnailUrl: a101,
   },
   {
-    title: "นางภัชรานันท์ จันทร์ชิด",
+    title: "นางภัชรานันท์ จันทชิด",
     department: "ครูแผนกวิชา: การบัญชี",
     thumbnailUrl: a103,
   },
