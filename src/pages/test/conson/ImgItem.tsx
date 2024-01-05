@@ -4,9 +4,9 @@ import { Card, CardHeader } from "@material-tailwind/react";
 export function ImgItem(props: { img: any; onImgClick: any }) {
   const { img, onImgClick } = props;
   return (
-    <div className="container-3 ">
+    <div className="flex flex-row">
       {/* ********************************** เรื่องที่ 1 ********************************** */}
-      <div className="qoute">
+      <div className=" ">
         <Card className=" overflow-hidden text-center ">
           <CardHeader
             floated={false}
@@ -21,8 +21,10 @@ export function ImgItem(props: { img: any; onImgClick: any }) {
                 onClick={() => onImgClick(img)}
                 alt={img.title.department}
               />
-              <h4>{img.title}</h4>
-              <h4>{img.department}</h4>
+              <div className="text-md py-2">
+                {img.title} <br />
+                {img.department}
+              </div>
             </div>
           </CardHeader>
         </Card>
