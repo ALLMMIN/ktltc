@@ -405,7 +405,7 @@ const imgs = [
     thumbnailUrl: a97,
   },
   {
-    title: "นางสาวเพ็ญธิดา แก้ววคำ",
+    title: "นางสาวเพ็ญธิดา แก้วคำ",
     department: "ครูแผนกวิชา: การบัญชี",
     thumbnailUrl: a98,
   },
