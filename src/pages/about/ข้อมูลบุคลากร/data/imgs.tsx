@@ -174,7 +174,7 @@ const imgs = [
     thumbnailUrl: a89,
   },
   {
-    title: "นางสาววีนัส สุวรรณ",
+    title: "นางวีนัส สุวรรณ",
     department: "ครูแผนกวิชา: สามัญสัมพันธ์",
     thumbnailUrl: a92,
   },

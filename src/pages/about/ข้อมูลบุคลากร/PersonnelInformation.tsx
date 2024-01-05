@@ -51,7 +51,7 @@ export default function PersonnelInformation() {
       <Layout>
         <div className="py-6 ">
           <div className="text-2xl font-bold text-center">ข้อมูลบุคลากร</div>
-          <div className="text-md text-glo-100 pl-2 uppercase font-bold text-center">
+          <div className="text-sm  text-glo-100 pl-2 uppercase font-bold text-center">
             Personnel information
           </div>
         </div>
