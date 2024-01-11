@@ -1,0 +1,1868 @@
+import { Card, CardHeader } from "@material-tailwind/react";
+
+import bk1 from "@assets/ข้อมูลบุคลากร/01.jpg";
+import bk2 from "@assets/ข้อมูลบุคลากร/2.jpg";
+import bk3 from "@assets/ข้อมูลบุคลากร/3.jpg";
+import bk4 from "@assets/ข้อมูลบุคลากร/4.jpg";
+import bk5 from "@assets/ข้อมูลบุคลากร/5.jpg";
+import bk6 from "@assets/ข้อมูลบุคลากร/6.jpg";
+import bk7 from "@assets/ข้อมูลบุคลากร/7.jpg";
+import bk8 from "@assets/ข้อมูลบุคลากร/8.jpg";
+import bk9 from "@assets/ข้อมูลบุคลากร/9.jpg";
+
+import bk11 from "@assets/ข้อมูลบุคลากร/11.jpg";
+import bk12 from "@assets/ข้อมูลบุคลากร/12.jpg";
+import bk13 from "@assets/ข้อมูลบุคลากร/13.jpg";
+import bk14 from "@assets/ข้อมูลบุคลากร/14.jpg";
+import bk15 from "@assets/ข้อมูลบุคลากร/15.jpg";
+import bk16 from "@assets/ข้อมูลบุคลากร/16.jpg";
+import bk17 from "@assets/ข้อมูลบุคลากร/17.jpg";
+import bk18 from "@assets/ข้อมูลบุคลากร/18.jpg";
+import bk19 from "@assets/ข้อมูลบุคลากร/19.jpg";
+
+import bk21 from "@assets/ข้อมูลบุคลากร/21.jpg";
+import bk22 from "@assets/ข้อมูลบุคลากร/22.jpg";
+import bk23 from "@assets/ข้อมูลบุคลากร/23.jpg";
+import bk24 from "@assets/ข้อมูลบุคลากร/24.jpg";
+import bk25 from "@assets/ข้อมูลบุคลากร/25.jpg";
+import bk26 from "@assets/ข้อมูลบุคลากร/26.jpg";
+import bk27 from "@assets/ข้อมูลบุคลากร/27.jpg";
+import bk28 from "@assets/ข้อมูลบุคลากร/28.jpg";
+import bk29 from "@assets/ข้อมูลบุคลากร/29.jpg";
+import bk30 from "@assets/ข้อมูลบุคลากร/30.jpg";
+import bk31 from "@assets/ข้อมูลบุคลากร/31.jpg";
+import bk32 from "@assets/ข้อมูลบุคลากร/32.jpg";
+import bk33 from "@assets/ข้อมูลบุคลากร/33.jpg";
+import bk34 from "@assets/ข้อมูลบุคลากร/34.jpg";
+import bk35 from "@assets/ข้อมูลบุคลากร/35.jpg";
+import bk36 from "@assets/ข้อมูลบุคลากร/36.jpg";
+import bk37 from "@assets/ข้อมูลบุคลากร/37.jpg";
+import bk38 from "@assets/ข้อมูลบุคลากร/38.jpg";
+import bk39 from "@assets/ข้อมูลบุคลากร/39.jpg";
+import bk40 from "@assets/ข้อมูลบุคลากร/40.jpg";
+import bk41 from "@assets/ข้อมูลบุคลากร/41.jpg";
+import bk42 from "@assets/ข้อมูลบุคลากร/42.jpg";
+import bk43 from "@assets/ข้อมูลบุคลากร/43.jpg";
+import bk44 from "@assets/ข้อมูลบุคลากร/44.jpg";
+import bk45 from "@assets/ข้อมูลบุคลากร/45.jpg";
+import bk46 from "@assets/ข้อมูลบุคลากร/46.jpg";
+import bk47 from "@assets/ข้อมูลบุคลากร/47.jpg";
+import bk48 from "@assets/ข้อมูลบุคลากร/48.jpg";
+import bk49 from "@assets/ข้อมูลบุคลากร/48.jpg";
+import bk50 from "@assets/ข้อมูลบุคลากร/49.jpg";
+import bk51 from "@assets/ข้อมูลบุคลากร/50.jpg";
+import bk52 from "@assets/ข้อมูลบุคลากร/51.jpg";
+import bk53 from "@assets/ข้อมูลบุคลากร/52.jpg";
+import bk54 from "@assets/ข้อมูลบุคลากร/53.jpg";
+import bk55 from "@assets/ข้อมูลบุคลากร/54.jpg";
+import bk56 from "@assets/ข้อมูลบุคลากร/55.jpg";
+import bk57 from "@assets/ข้อมูลบุคลากร/56.jpg";
+import bk58 from "@assets/ข้อมูลบุคลากร/57.jpg";
+import bk59 from "@assets/ข้อมูลบุคลากร/58.jpg";
+import bk60 from "@assets/ข้อมูลบุคลากร/59.jpg";
+import bk61 from "@assets/ข้อมูลบุคลากร/60.jpg";
+import bk62 from "@assets/ข้อมูลบุคลากร/61.jpg";
+import bk63 from "@assets/ข้อมูลบุคลากร/62.jpg";
+import bk64 from "@assets/ข้อมูลบุคลากร/63.jpg";
+import bk65 from "@assets/ข้อมูลบุคลากร/64.jpg";
+import bk66 from "@assets/ข้อมูลบุคลากร/65.jpg";
+import bk67 from "@assets/ข้อมูลบุคลากร/66.jpg";
+import bk68 from "@assets/ข้อมูลบุคลากร/67.jpg";
+import bk69 from "@assets/ข้อมูลบุคลากร/68.jpg";
+import bk70 from "@assets/ข้อมูลบุคลากร/69.jpg";
+import bk71 from "@assets/ข้อมูลบุคลากร/70.jpg";
+import bk72 from "@assets/ข้อมูลบุคลากร/71.jpg";
+import bk73 from "@assets/ข้อมูลบุคลากร/72.jpg";
+import bk74 from "@assets/ข้อมูลบุคลากร/73.jpg";
+import bk75 from "@assets/ข้อมูลบุคลากร/74.jpg";
+import bk76 from "@assets/ข้อมูลบุคลากร/75.jpg";
+import bk77 from "@assets/ข้อมูลบุคลากร/76.jpg";
+import bk78 from "@assets/ข้อมูลบุคลากร/77.jpg";
+import bk79 from "@assets/ข้อมูลบุคลากร/78.jpg";
+import bk80 from "@assets/ข้อมูลบุคลากร/79.jpg";
+import bk81 from "@assets/ข้อมูลบุคลากร/80.jpg";
+import bk82 from "@assets/ข้อมูลบุคลากร/81.jpg";
+import bk83 from "@assets/ข้อมูลบุคลากร/82.jpg";
+import bk84 from "@assets/ข้อมูลบุคลากร/83.jpg";
+import bk85 from "@assets/ข้อมูลบุคลากร/84.jpg";
+import bk86 from "@assets/ข้อมูลบุคลากร/85.jpg";
+import bk87 from "@assets/ข้อมูลบุคลากร/86.jpg";
+import bk88 from "@assets/ข้อมูลบุคลากร/87.jpg";
+import bk89 from "@assets/ข้อมูลบุคลากร/88.jpg";
+import bk90 from "@assets/ข้อมูลบุคลากร/89.jpg";
+import bk91 from "@assets/ข้อมูลบุคลากร/90.jpg";
+import bk92 from "@assets/ข้อมูลบุคลากร/91.jpg";
+import bk93 from "@assets/ข้อมูลบุคลากร/92.jpg";
+import bk94 from "@assets/ข้อมูลบุคลากร/93.jpg";
+import bk95 from "@assets/ข้อมูลบุคลากร/94.jpg";
+import bk96 from "@assets/ข้อมูลบุคลากร/95.jpg";
+import bk97 from "@assets/ข้อมูลบุคลากร/96.jpg";
+import bk98 from "@assets/ข้อมูลบุคลากร/97.jpg";
+import bk99 from "@assets/ข้อมูลบุคลากร/98.jpg";
+import bk100 from "@assets/ข้อมูลบุคลากร/99.jpg";
+import bk101 from "@assets/ข้อมูลบุคลากร/100.jpg";
+import bk102 from "@assets/ข้อมูลบุคลากร/101.jpg";
+import bk103 from "@assets/ข้อมูลบุคลากร/102.jpg";
+import bk104 from "@assets/ข้อมูลบุคลากร/103.jpg";
+import bk105 from "@assets/ข้อมูลบุคลากร/104.jpg";
+import bk106 from "@assets/ข้อมูลบุคลากร/105.jpg";
+import bk107 from "@assets/ข้อมูลบุคลากร/106.jpg";
+
+import bk109 from "@assets/ข้อมูลบุคลากร/108.jpg";
+import bk110 from "@assets/ข้อมูลบุคลากร/109.jpg";
+import bk111 from "@assets/ข้อมูลบุคลากร/110.jpg";
+import bk112 from "@assets/ข้อมูลบุคลากร/111.jpg";
+import bk113 from "@assets/ข้อมูลบุคลากร/112.jpg";
+import bk114 from "@assets/ข้อมูลบุคลากร/113.jpg";
+import bk115 from "@assets/ข้อมูลบุคลากร/114.jpg";
+import bk116 from "@assets/ข้อมูลบุคลากร/115.jpg";
+import bk117 from "@assets/ข้อมูลบุคลากร/116.jpg";
+import bk118 from "@assets/ข้อมูลบุคลากร/117.jpg";
+import bk119 from "@assets/ข้อมูลบุคลากร/118.jpg";
+import bk120 from "@assets/ข้อมูลบุคลากร/119.jpg";
+import bk121 from "@assets/ข้อมูลบุคลากร/120.jpg";
+import bk122 from "@assets/ข้อมูลบุคลากร/121.jpg";
+import bk123 from "@assets/ข้อมูลบุคลากร/122.jpg";
+import bk124 from "@assets/ข้อมูลบุคลากร/123.jpg";
+import bk125 from "@assets/ข้อมูลบุคลากร/124.jpg";
+
+import { Layout } from "@/Layout";
+
+export const Personnel = () => {
+  return (
+    <>
+      <div className="py-6 ">
+        <div className="text-2xl font-bold text-center">ข้อมูลบุคลากร</div>
+        <div className="text-md text-glo-100 pl-2 uppercase font-bold text-center">
+          Personnel information
+        </div>
+      </div>
+
+      {/* เพิ่มเนื้อหา */}
+
+      <div className="container-3 ">
+        {/* ********************************** เรื่องที่ 125 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk125} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 125 ********************************** */}
+        {/* ********************************** เรื่องที่ 124 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk124} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 124 ********************************** */}
+        {/* ********************************** เรื่องที่ 123 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk123} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 123 ********************************** */}
+        {/* ********************************** เรื่องที่ 122 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk122} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 122 ********************************** */}
+        {/* ********************************** เรื่องที่ 121 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk121} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 121 ********************************** */}
+        {/* ********************************** เรื่องที่ 120 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk120} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 120 ********************************** */}
+        {/* ********************************** เรื่องที่ 119 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk119} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 119 ********************************** */}
+        {/* ********************************** เรื่องที่ 118 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk118} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 118 ********************************** */}
+        {/* ********************************** เรื่องที่ 117 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk117} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 117 ********************************** */}
+        {/* ********************************** เรื่องที่ 116 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk116} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 116 ********************************** */}
+        {/* ********************************** เรื่องที่ 115 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk115} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 115 ********************************** */}
+        {/* ********************************** เรื่องที่ 114 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk114} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 114 ********************************** */}
+        {/* ********************************** เรื่องที่ 113 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk113} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 113 ********************************** */}
+        {/* ********************************** เรื่องที่ 112 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk112} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 112 ********************************** */}
+        {/* ********************************** เรื่องที่ 111 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk111} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 111 ********************************** */}
+        {/* ********************************** เรื่องที่ 110 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk110} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 110 ********************************** */}
+        {/* ********************************** เรื่องที่ 109 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk109} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 109 ********************************** */}
+
+        {/* ********************************** เรื่องที่ 107 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk107} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 107 ********************************** */}
+        {/* ********************************** เรื่องที่ 106 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk106} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 106 ********************************** */}
+        {/* ********************************** เรื่องที่ 105 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk105} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 105 ********************************** */}
+        {/* ********************************** เรื่องที่ 104 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk104} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 104 ********************************** */}
+        {/* ********************************** เรื่องที่ 103 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk103} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 103 ********************************** */}
+        {/* ********************************** เรื่องที่ 102 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk102} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 102 ********************************** */}
+        {/* ********************************** เรื่องที่ 101 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk101} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 101 ********************************** */}
+        {/* ********************************** เรื่องที่ 100 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk100} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 100 ********************************** */}
+        {/* ********************************** เรื่องที่ 99 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk99} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 99 ********************************** */}
+        {/* ********************************** เรื่องที่ 98 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk98} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 98 ********************************** */}
+        {/* ********************************** เรื่องที่ 97 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk97} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 97 ********************************** */}
+        {/* ********************************** เรื่องที่ 96 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk96} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 96 ********************************** */}
+        {/* ********************************** เรื่องที่ 95 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk95} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 95 ********************************** */}
+        {/* ********************************** เรื่องที่ 94 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk94} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 94 ********************************** */}
+        {/* ********************************** เรื่องที่ 93 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk93} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 93 ********************************** */}
+        {/* ********************************** เรื่องที่ 92 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk92} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 92 ********************************** */}
+        {/* ********************************** เรื่องที่ 91 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk91} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 91 ********************************** */}
+        {/* ********************************** เรื่องที่ 90 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk90} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 90 ********************************** */}
+        {/* ********************************** เรื่องที่ 89 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk89} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 89 ********************************** */}
+        {/* ********************************** เรื่องที่ 88 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk88} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 88 ********************************** */}
+        {/* ********************************** เรื่องที่ 87 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk87} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 87 ********************************** */}
+        {/* ********************************** เรื่องที่ 86 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk86} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 86 ********************************** */}
+        {/* ********************************** เรื่องที่ 85 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk85} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 85 ********************************** */}
+        {/* ********************************** เรื่องที่ 84 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk84} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 84 ********************************** */}
+        {/* ********************************** เรื่องที่ 83 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk83} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 83 ********************************** */}
+        {/* ********************************** เรื่องที่ 82 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk82} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 82 ********************************** */}
+        {/* ********************************** เรื่องที่ 81 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk81} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 81 ********************************** */}
+        {/* ********************************** เรื่องที่ 80 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk80} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 80 ********************************** */}
+        {/* ********************************** เรื่องที่ 79 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk79} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 79 ********************************** */}
+        {/* ********************************** เรื่องที่ 78 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk78} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 78 ********************************** */}
+        {/* ********************************** เรื่องที่ 77 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk77} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 77 ********************************** */}
+        {/* ********************************** เรื่องที่ 76 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk76} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 76 ********************************** */}
+        {/* ********************************** เรื่องที่ 75 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk75} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 75 ********************************** */}
+        {/* ********************************** เรื่องที่ 74 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk74} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 74 ********************************** */}
+        {/* ********************************** เรื่องที่ 73 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk73} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 73 ********************************** */}
+        {/* ********************************** เรื่องที่ 72 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk72} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 72 ********************************** */}
+        {/* ********************************** เรื่องที่ 71 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk71} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 71 ********************************** */}
+        {/* ********************************** เรื่องที่ 70 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk70} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 70 ********************************** */}
+        {/* ********************************** เรื่องที่ 69 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk69} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 69 ********************************** */}
+        {/* ********************************** เรื่องที่ 68 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk68} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 68 ********************************** */}
+        {/* ********************************** เรื่องที่ 67 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk67} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 67 ********************************** */}
+        {/* ********************************** เรื่องที่ 66 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk66} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 66 ********************************** */}
+        {/* ********************************** เรื่องที่ 65 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk65} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 65 ********************************** */}
+        {/* ********************************** เรื่องที่ 64 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk64} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 64 ********************************** */}
+        {/* ********************************** เรื่องที่ 63 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk63} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 63 ********************************** */}
+        {/* ********************************** เรื่องที่ 62 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk62} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 62 ********************************** */}
+        {/* ********************************** เรื่องที่ 61 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk61} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 61 ********************************** */}
+        {/* ********************************** เรื่องที่ 60 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk60} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 60 ********************************** */}
+        {/* ********************************** เรื่องที่ 59 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk59} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 59 ********************************** */}
+        {/* ********************************** เรื่องที่ 58 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk58} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 58 ********************************** */}
+        {/* ********************************** เรื่องที่ 57 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk57} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 57 ********************************** */}
+        {/* ********************************** เรื่องที่ 56 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk56} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 56 ********************************** */}
+        {/* ********************************** เรื่องที่ 55 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk55} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 55 ********************************** */}
+        {/* ********************************** เรื่องที่ 54 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk54} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 54 ********************************** */}
+        {/* ********************************** เรื่องที่ 53 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk53} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 53 ********************************** */}
+        {/* ********************************** เรื่องที่ 52 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk52} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 52 ********************************** */}
+        {/* ********************************** เรื่องที่ 51 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk51} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 51 ********************************** */}
+        {/* ********************************** เรื่องที่ 50 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk50} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 50 ********************************** */}
+        {/* ********************************** เรื่องที่ 49 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk49} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 49 ********************************** */}
+        {/* ********************************** เรื่องที่ 48 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk48} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 48 ********************************** */}
+        {/* ********************************** เรื่องที่ 47 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk47} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 47 ********************************** */}
+        {/* ********************************** เรื่องที่ 46 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk46} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 46 ********************************** */}
+        {/* ********************************** เรื่องที่ 45 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk45} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 45 ********************************** */}
+        {/* ********************************** เรื่องที่ 44 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk44} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 44 ********************************** */}
+        {/* ********************************** เรื่องที่ 43 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk43} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 43 ********************************** */}
+        {/* ********************************** เรื่องที่ 42 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk42} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 42 ********************************** */}
+        {/* ********************************** เรื่องที่ 41 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk41} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 41 ********************************** */}
+        {/* ********************************** เรื่องที่ 40 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk40} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 40 ********************************** */}
+        {/* ********************************** เรื่องที่ 39 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk39} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 39 ********************************** */}
+        {/* ********************************** เรื่องที่ 38 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk38} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 38 ********************************** */}
+        {/* ********************************** เรื่องที่ 37 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk37} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 37 ********************************** */}
+        {/* ********************************** เรื่องที่ 36 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk36} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 36 ********************************** */}
+        {/* ********************************** เรื่องที่ 35 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk35} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 35 ********************************** */}
+        {/* ********************************** เรื่องที่ 34 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk34} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 34 ********************************** */}
+        {/* ********************************** เรื่องที่ 33 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk33} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 33 ********************************** */}
+        {/* ********************************** เรื่องที่ 32 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk32} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 32 ********************************** */}
+        {/* ********************************** เรื่องที่ 31 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk31} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 31 ********************************** */}
+        {/* ********************************** เรื่องที่ 30 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk30} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 30 ********************************** */}
+        {/* ********************************** เรื่องที่ 29 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk29} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 29 ********************************** */}
+        {/* ********************************** เรื่องที่ 28 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk28} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 28 ********************************** */}
+        {/* ********************************** เรื่องที่ 27 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk27} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 27 ********************************** */}
+        {/* ********************************** เรื่องที่ 26 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk26} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 26 ********************************** */}
+        {/* ********************************** เรื่องที่ 25 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk25} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 25 ********************************** */}
+        {/* ********************************** เรื่องที่ 24 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk24} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 24 ********************************** */}
+        {/* ********************************** เรื่องที่ 23 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk23} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 23 ********************************** */}
+        {/* ********************************** เรื่องที่ 22 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk22} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 22 ********************************** */}
+        {/* ********************************** เรื่องที่ 21 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk21} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 21 ********************************** */}
+
+        {/* ********************************** เรื่องที่ 19 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk19} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 19 ********************************** */}
+        {/* ********************************** เรื่องที่ 18 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk18} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 18 ********************************** */}
+        {/* ********************************** เรื่องที่ 17 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk17} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 17 ********************************** */}
+        {/* ********************************** เรื่องที่ 16 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk16} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 16 ********************************** */}
+        {/* ********************************** เรื่องที่ 15 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk15} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 15 ********************************** */}
+        {/* ********************************** เรื่องที่ 14 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk14} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 14 ********************************** */}
+        {/* ********************************** เรื่องที่ 13 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk13} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 13 ********************************** */}
+        {/* ********************************** เรื่องที่ 12 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk12} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 12 ********************************** */}
+        {/* ********************************** เรื่องที่ 11 ********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk11} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 11 ********************************** */}
+
+        {/* ********************************** เรื่องที่ 9********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk9} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 9********************************** */}
+        {/* ********************************** เรื่องที่ 1********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk1} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 1********************************** */}
+        {/* ********************************** เรื่องที่ 2********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk2} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 2********************************** */}
+        {/* ********************************** เรื่องที่ 3********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk3} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 3********************************** */}
+        {/* ********************************** เรื่องที่ 4********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk4} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 4********************************** */}
+        {/* ********************************** เรื่องที่ 5********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk5} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 5********************************** */}
+        {/* ********************************** เรื่องที่ 6********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk6} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 6********************************** */}
+        {/* ********************************** เรื่องที่ 7********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk7} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 7********************************** */}
+        {/* ********************************** เรื่องที่ 8********************************** */}
+        <div className="qoute">
+          <Card className=" overflow-hidden text-center">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img src={bk8} alt="ui/ux review check" />
+            </CardHeader>
+          </Card>
+        </div>
+        {/* ********************************** เรื่องที่ 8********************************** */}
+      </div>
+    </>
+  );
+};
+
+export default function PersonnelInformation() {
+  return (
+    <>
+      <Layout>
+        <Personnel />
+      </Layout>
+    </>
+  );
+}
