@@ -3,7 +3,7 @@ import Footer from "@components/page/Footer";
 import TopHeader from "@components/page/TopHeader";
 import { NavbarWithMegaMenu } from "./Navbar";
 import { SuspenseProps } from "react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 export function Layout(props: SuspenseProps) {
   return (
     <>
