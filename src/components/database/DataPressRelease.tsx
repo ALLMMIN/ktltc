@@ -126,19 +126,40 @@ import img57 from "@assets/ข่าวประชาสัมพันธ์/3
 import img58 from "@assets/ข่าวประชาสัมพันธ์/40/05.jpg";
 import img59 from "@assets/ข่าวประชาสัมพันธ์/41/1.jpg";
 import img60 from "@assets/ข่าวประชาสัมพันธ์/41/1.gif";
-
-import img63 from "@assets/ข่าวประชาสัมพันธ์/41/2.jpg";
-import img64 from "@assets/ข่าวประชาสัมพันธ์/42/01.jpg";
-
-// import img61 from "@assets/ข่าวประชาสัมพันธ์/41/2.gif";
-// import img62 from "@assets/ข่าวประชาสัมพันธ์/41/3.gif";
-
 import img61 from "@assets/error.png";
 import img62 from "@assets/error.png";
+import img63 from "@assets/ข่าวประชาสัมพันธ์/41/2.jpg";
+import img64 from "@assets/ข่าวประชาสัมพันธ์/42/01.jpg";
+import img65 from "@assets/ข่าวประชาสัมพันธ์/43/22.jpg";
+import img66 from "@assets/ข่าวประชาสัมพันธ์/44/1.1.jpg";
+import img67 from "@assets/ข่าวประชาสัมพันธ์/44/6.jpg";
 
 import { Worship } from "../homepage/ข่าวประชาสัมพันธ์/Worship";
+import { SurrenderStudent } from "../homepage/ข่าวประชาสัมพันธ์/SurrenderStudent";
+import { KingVajiraklao } from "../homepage/ข่าวประชาสัมพันธ์/KingVajiraklao";
+import { ProfessionalStandards } from "../homepage/ข่าวประชาสัมพันธ์/ProfessionalStandards";
 
 export const DataPressRelease = [
+  {
+    name: `ระชุมเชิงปฏิบัติการชี้แจงหลักเกณฑ์`,
+    backgroundImage: img67,
+    review: ` และวิธีการประเมินมาตรฐานวิชาชีพตามหลักสูตรประกาศนียบัตร...`,
+    url: <ProfessionalStandards />,
+  },
+  {
+    name: `พระบาทสมเด็จพระปรเมนทรรามาธิบดีศรีสินทรมหาวชิราลงกรณ์
+    พระวชิรเกล้าเจ้าอยู่หัว พระราชทานพระบรมราโชวาท
+    สำหรับลงพิมพ์ในหนังสือวันเด็กแห่งชาติปี ๒๕๖๗`,
+    backgroundImage: img66,
+    review: ` `,
+    url: <KingVajiraklao />,
+  },
+  {
+    name: `พบกับบรรยากาศการเข้ามอบตัวนักเรียน `,
+    backgroundImage: img65,
+    review: `นักศึกษา ในโควตา รอบที่ 1 ของ...`,
+    url: <SurrenderStudent />,
+  },
   {
     name: `เช้าวันที่ 10 มกราคม 2567`,
     backgroundImage: img64,

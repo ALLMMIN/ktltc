@@ -16,6 +16,7 @@ import img17 from "@assets/จดหมายข่าว/15.jpg";
 import img18 from "@assets/จดหมายข่าว/16.jpg";
 import img19 from "@assets/จดหมายข่าว/17.jpg";
 import img20 from "@assets/จดหมายข่าว/18.jpg";
+import img21 from "@assets/จดหมายข่าว/19.jpg";
 
 import { ApplyForStudy } from "@components/homepage/จดหมายข่าวประชาสัมพันธ์/ApplyForStudy";
 import { DrivingSkills } from "@components/homepage/จดหมายข่าวประชาสัมพันธ์/DrivingSkills";
@@ -35,8 +36,15 @@ import { SummaryOfMeasures } from "../homepage/จดหมายข่าวป
 import { FixItCenter } from "../homepage/จดหมายข่าวประชาสัมพันธ์/FixItCenter";
 import { FixItCenter1 } from "../homepage/จดหมายข่าวประชาสัมพันธ์/FixItCenter1";
 import { SafetyCampaign } from "../homepage/จดหมายข่าวประชาสัมพันธ์/SafetyCampaign";
+import { NationalChildrensDay } from "../homepage/จดหมายข่าวประชาสัมพันธ์/NationalChildrensDay";
 
 export const DataNewsletterPublicRelations = [
+  {
+    name: ` เมื่อวันที่ 13 มกราคม 2567`,
+    backgroundImage: img21,
+    review: `นางสาวทักษิณา ชมจันทร์ ผู้อำนวยการ...`,
+    url: <NationalChildrensDay />,
+  },
   {
     name: `วันที่ 28 ธันวาคม 2566`,
     backgroundImage: img20,
