@@ -133,17 +133,25 @@ import img64 from "@assets/ข่าวประชาสัมพันธ์/4
 import img65 from "@assets/ข่าวประชาสัมพันธ์/43/22.jpg";
 import img66 from "@assets/ข่าวประชาสัมพันธ์/44/1.1.jpg";
 import img67 from "@assets/ข่าวประชาสัมพันธ์/44/6.jpg";
+import img68 from "@assets/ข่าวประชาสัมพันธ์/45/1.jpg";
 
 import { Worship } from "../homepage/ข่าวประชาสัมพันธ์/Worship";
 import { SurrenderStudent } from "../homepage/ข่าวประชาสัมพันธ์/SurrenderStudent";
 import { KingVajiraklao } from "../homepage/ข่าวประชาสัมพันธ์/KingVajiraklao";
 import { ProfessionalStandards } from "../homepage/ข่าวประชาสัมพันธ์/ProfessionalStandards";
+import { Business } from "../homepage/ข่าวประชาสัมพันธ์/Business";
 
 export const DataPressRelease = [
   {
+    name: `วิทยาลัยเทคนิคกันทรลักษ์`,
+    backgroundImage: img68,
+    review: `ขอประชาสัมพันธ์ ตามศูนย์บ่มเพาะผู้ประกอบการอาชีวศึกษา...`,
+    url: <Business />,
+  },
+  {
     name: `ระชุมเชิงปฏิบัติการชี้แจงหลักเกณฑ์`,
     backgroundImage: img67,
-    review: ` และวิธีการประเมินมาตรฐานวิชาชีพตามหลักสูตรประกาศนียบัตร...`,
+    review: `และวิธีการประเมินมาตรฐานวิชาชีพตามหลักสูตรประกาศนียบัตร...`,
     url: <ProfessionalStandards />,
   },
   {

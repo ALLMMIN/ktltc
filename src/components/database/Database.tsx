@@ -1186,6 +1186,26 @@ import img1650 from "@assets/ข่าวประชาสัมพันธ์
 import img1651 from "@assets/ข่าวประชาสัมพันธ์/44/6.jpg";
 import img1652 from "@assets/ข่าวประชาสัมพันธ์/44/7.jpg";
 import img1653 from "@assets/ข่าวประชาสัมพันธ์/44/8.jpg";
+import img1654 from "@assets/ข่าวประชาสัมพันธ์/45/1.jpg";
+import img1655 from "@assets/ข่าวประชาสัมพันธ์/45/2.jpg";
+import img1656 from "@assets/ข่าวประชาสัมพันธ์/45/3.jpg";
+import img1657 from "@assets/ข่าวประชาสัมพันธ์/45/4.jpg";
+
+
+export const Data60 = [
+  {
+    img60: img1654,
+  },
+  {
+    img60: img1655,
+  },
+  {
+    img60: img1656,
+  },
+  {
+    img60: img1657,
+  },
+]
 
 export const Data59 = [
   {
