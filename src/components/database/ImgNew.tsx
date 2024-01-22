@@ -18,7 +18,13 @@ import img17 from "@assets/จดหมายข่าว/16.jpg";
 import img18 from "@assets/จดหมายข่าว/17.jpg";
 import img19 from "@assets/จดหมายข่าว/18.jpg";
 import img20 from "@assets/จดหมายข่าว/19.jpg";
+import img21 from "@assets/จดหมายข่าว/20.jpg";
 
+export const Data20 = [
+  {
+    img20: img21,
+  },
+];
 export const Data19 = [
   {
     img19: img20,

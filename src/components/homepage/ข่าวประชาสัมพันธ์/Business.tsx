@@ -7,7 +7,7 @@ import {
 } from "@material-tailwind/react";
 
 import { Typography } from "@material-tailwind/react";
-import { Data59 } from "@components/database/Database";
+import { Data60 } from "@components/database/Database";
 
 export function Business() {
   const [open, setOpen] = React.useState(false);
@@ -22,30 +22,37 @@ export function Business() {
           <Typography className=" ">
             <>
               <div className="text-xl text-center">
-                ระชุมเชิงปฏิบัติการชี้แจงหลักเกณฑ์
+                วิทยาลัยเทคนิคกันทรลักษ์
               </div>
               <p className="text-xs">
-                และวิธีการประเมินมาตรฐานวิชาชีพตามหลักสูตรประกาศนียบัตรวิชาชีพและหลักสูตรประกาศนียบัตรวิชาชีพชั้นสูง
-                พ.ศ 2566
-                สำนักงานคณะกรรมการการอาชีวศึกษากรุงเทพมหานครและผ่านสื่ออิเล็กทรอนิกส์
-                ประชุมโดยผ่าน (Zoom Meeting) ระหว่างวันที่ 15-16 มกราคม 2567 ณ
-                ห้องประชุมตึกวิทยบริการ วิทยาลัยเทคนิคกันทรลักษ์
-                รายชื่อผู้เข้าร่วมประชุม <br />
-                1.นางสาวทักษิณา ชมจันทร์ ผู้อำนวยการวิทยาลัยเทคนิคกันทรลักษ์{" "}
+                ขอประชาสัมพันธ์ ตามศูนย์บ่มเพาะผู้ประกอบการอาชีวศึกษา
+                วิทยาลัยเทคนิคกันทรลักษ์
+                ได้ดำเนินการส่งเสริมการประกอบอาชีพอิสระในกลุ่มผู้เรียนอาชีวศึกษาให้เเก่นักเรียน
+                นักศึกษา ประจำปีการศึกษา 2566
+                เพื่อเป็นการเผยเเพร่ประชาสัมพันธ์การดำเนินงานธุรกิจของนักเรียน
+                นักศึกษา
+                ให้ผู้ที่สนใจสามารถใช้ธุรกิจศูนย์บ่มเพาะผู้ประกอบการอาชีวศึกษา
+                เป็นเเหล่งเรียนรู้ศึกษาดูงาน
+                ทั้งในหน่วยงานภายในเเละภายนอกสถานศึกษา
+                ซึ่งวิทยาลัยเทคนิคกันทรลักษ์จะขอเผยเเพร่ประชาสัมพันธ์ จำนวน 4
+                ธุรกิจ ดั้งนี้ <br />
+                1.ธุรกิจ Lava Coffee & Be Happy <br />
+                เพจ : ธุรกิจ Lava Coffee & Be Happy ธุรกิจเดิม
+                เเผนกวิชาการโรงเเรม
                 <br />
-                2.นางสาวภวิกา โพธิ์ขาว รองผู้อำนวยการ ฝ่ายวิชาการ
-                <br /> 3.ครูคำโฮม คูณสว่าง
-                <br /> 4.ครูสิริปัญญ์ เสริมสิริพิพัฒน์
-                <br /> 5.ครูมานะศักดิ์ อารมณ์สวะ
+                2. ธุรกิจสวนผักอิ่มสุข ธุรกิจใหม่ เเผนกวิชาการตลาด <br />
+                3. ธุรกิจไอศครีมทุเรียนภูเขาไฟ ธุรกิจใหม่ เเผนกวิชาการตลาด{" "}
+                <br />
+                4. ธุรกิจสบู่โมจิ ธุรกิจใหม่ เเผนกวิชาการบัญชี <br />
               </p>
               <div className="justify-center flex-col ">
                 <div>
-                  {Data59.map((Data59) => (
+                  {Data60.map((Data60) => (
                     <div className="mb-4 group relative shadow-lg rounded-xl px-[200px] py-[200px]  ">
                       <div
                         className="absolute inset-0 bg-cover bg-center rounded-xl hover:scale-110 transition duration-500 cursor-pointer object-cover"
                         style={{
-                          backgroundImage: `url(${Data59.img59})`,
+                          backgroundImage: `url(${Data60.img60 })`,
                         }}
                       />
                     </div>

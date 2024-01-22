@@ -17,6 +17,7 @@ import img18 from "@assets/จดหมายข่าว/16.jpg";
 import img19 from "@assets/จดหมายข่าว/17.jpg";
 import img20 from "@assets/จดหมายข่าว/18.jpg";
 import img21 from "@assets/จดหมายข่าว/19.jpg";
+import img22 from "@assets/จดหมายข่าว/20.jpg";
 
 import { ApplyForStudy } from "@components/homepage/จดหมายข่าวประชาสัมพันธ์/ApplyForStudy";
 import { DrivingSkills } from "@components/homepage/จดหมายข่าวประชาสัมพันธ์/DrivingSkills";
@@ -37,8 +38,15 @@ import { FixItCenter } from "../homepage/จดหมายข่าวประ
 import { FixItCenter1 } from "../homepage/จดหมายข่าวประชาสัมพันธ์/FixItCenter1";
 import { SafetyCampaign } from "../homepage/จดหมายข่าวประชาสัมพันธ์/SafetyCampaign";
 import { NationalChildrensDay } from "../homepage/จดหมายข่าวประชาสัมพันธ์/NationalChildrensDay";
+import { CertificateOfHonor } from "../homepage/จดหมายข่าวประชาสัมพันธ์/CertificateOfHonor";
 
 export const DataNewsletterPublicRelations = [
+  {
+    name: `วันอังคารที่ ๑๖ มกราคม ๒๕๖๗`,
+    backgroundImage: img22,
+    review: `โดย นางสาวทักษิณา ชมจันทร์ ผู้อำนวยการวิทยาลัยเทคนิคกันทรลักษ์ ...`,
+    url: <CertificateOfHonor />,
+  },
   {
     name: ` เมื่อวันที่ 13 มกราคม 2567`,
     backgroundImage: img21,
