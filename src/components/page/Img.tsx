@@ -1,8 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import l1 from "@assets/01.png";
-import l2 from "@assets/02.png";
-import l3 from "@assets/03.png";
+import l1 from "@assets/01.webp";
+import l2 from "@assets/02.webp";
+import l3 from "@assets/03.webp";
 
 export default function Img() {
   return (

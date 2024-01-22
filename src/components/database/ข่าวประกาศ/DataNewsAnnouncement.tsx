@@ -1,17 +1,17 @@
-// import na1 from "../../../assets/ข่าวประกาศ/na1.png";
-import na1 from "@assets/ข่าวประกาศ/na1.png";
-import na2 from "@assets/ข่าวประกาศ/na2.png";
-import na3 from "@assets/ข่าวประกาศ/na3.png";
-import na4 from "@assets/ข่าวประกาศ/na4.png";
-import na5 from "@assets/ข่าวประกาศ/na5.jpg";
-import na6 from "@assets/ข่าวประกาศ/na6.png";
-import img1 from "@assets/ข่าวประกาศ/na1.png";
-import img2 from "@assets/ข่าวประกาศ/na2.png";
-import img3 from "@assets/ข่าวประกาศ/na3.png";
-import img4 from "@assets/ข่าวประกาศ/na4.png";
-import img5 from "@assets/ข่าวประกาศ/na5.jpg";
-import img6 from "@assets/ข่าวประกาศ/na5.1.jpg";
-import img7 from "@assets/ข่าวประกาศ/na7.png";
+// import na1 from "../../../assets/ข่าวประกาศ/na1.webp";
+import na1 from "@assets/ข่าวประกาศ/na1.webp";
+import na2 from "@assets/ข่าวประกาศ/na2.webp";
+import na3 from "@assets/ข่าวประกาศ/na3.webp";
+import na4 from "@assets/ข่าวประกาศ/na4.webp";
+import na5 from "@assets/ข่าวประกาศ/na5.webp";
+import na6 from "@assets/ข่าวประกาศ/na6.webp";
+import img1 from "@assets/ข่าวประกาศ/na1.webp";
+import img2 from "@assets/ข่าวประกาศ/na2.webp";
+import img3 from "@assets/ข่าวประกาศ/na3.webp";
+import img4 from "@assets/ข่าวประกาศ/na4.webp";
+import img5 from "@assets/ข่าวประกาศ/na5.webp";
+import img6 from "@assets/ข่าวประกาศ/na5.1.webp";
+import img7 from "@assets/ข่าวประกาศ/na7.webp";
 
 import {
   ListOfThoseWhoPassedTheAssessment,

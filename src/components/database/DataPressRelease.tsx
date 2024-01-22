@@ -66,75 +66,75 @@ import {
   VideoMedia8,
 } from "../homepage/ข่าวประชาสัมพันธ์/VideoMedia";
 
-import a1 from "@assets/ข่าวประชาสัมพันธ์/01/04.jpg";
-import b1 from "@assets/ข่าวประชาสัมพันธ์/02/1.jpg";
-import c3 from "@assets/ข่าวประชาสัมพันธ์/03/3.jpg";
-import img4 from "@assets/ข่าวประชาสัมพันธ์/04/16.jpg";
-import img5 from "@assets/ข่าวประชาสัมพันธ์/05/4.jpg";
-import img6 from "@assets/ข่าวประชาสัมพันธ์/06/9.jpg";
-import img7 from "@assets/ข่าวประชาสัมพันธ์/07/1.jpg";
-import img8 from "@assets/ข่าวประชาสัมพันธ์/08/1.jpg";
-import img9 from "@assets/ข่าวประชาสัมพันธ์/09/1.jpg";
-import img10 from "@assets/ข่าวประชาสัมพันธ์/10/1.jpg";
-import img11 from "@assets/ข่าวประชาสัมพันธ์/11/1.jpg";
-import img12 from "@assets/ข่าวประชาสัมพันธ์/12/1.jpg";
-import img13 from "@assets/ข่าวประชาสัมพันธ์/13/1.jpg";
-import img14 from "@assets/ข่าวประชาสัมพันธ์/14/1.jpg";
-import img15 from "@assets/ข่าวประชาสัมพันธ์/15/1.jpg";
-import img16 from "@assets/ข่าวประชาสัมพันธ์/16/1.jpg";
-import img17 from "@assets/ข่าวประชาสัมพันธ์/17/1.jpg";
+import a1 from "@assets/ข่าวประชาสัมพันธ์/01/04.webp";
+import b1 from "@assets/ข่าวประชาสัมพันธ์/02/1.webp";
+import c3 from "@assets/ข่าวประชาสัมพันธ์/03/3.webp";
+import img4 from "@assets/ข่าวประชาสัมพันธ์/04/16.webp";
+import img5 from "@assets/ข่าวประชาสัมพันธ์/05/4.webp";
+import img6 from "@assets/ข่าวประชาสัมพันธ์/06/9.webp";
+import img7 from "@assets/ข่าวประชาสัมพันธ์/07/1.webp";
+import img8 from "@assets/ข่าวประชาสัมพันธ์/08/1.webp";
+import img9 from "@assets/ข่าวประชาสัมพันธ์/09/1.webp";
+import img10 from "@assets/ข่าวประชาสัมพันธ์/10/1.webp";
+import img11 from "@assets/ข่าวประชาสัมพันธ์/11/1.webp";
+import img12 from "@assets/ข่าวประชาสัมพันธ์/12/1.webp";
+import img13 from "@assets/ข่าวประชาสัมพันธ์/13/1.webp";
+import img14 from "@assets/ข่าวประชาสัมพันธ์/14/1.webp";
+import img15 from "@assets/ข่าวประชาสัมพันธ์/15/1.webp";
+import img16 from "@assets/ข่าวประชาสัมพันธ์/16/1.webp";
+import img17 from "@assets/ข่าวประชาสัมพันธ์/17/1.webp";
 import img18 from "@assets/ข่าวประชาสัมพันธ์/18/gif.gif";
-import img19 from "@assets/ข่าวประชาสัมพันธ์/18/3.png";
-import img20 from "@assets/ข่าวประชาสัมพันธ์/19/1.jpg";
-import img21 from "@assets/ข่าวประชาสัมพันธ์/20/1.jpg";
-import img22 from "@assets/ข่าวประชาสัมพันธ์/21/1.jpg";
-import img23 from "@assets/ข่าวประชาสัมพันธ์/รูปจบการศึกษา/1.jpg";
-import img24 from "@assets/ข่าวประชาสัมพันธ์/22/1.jpg";
-import img25 from "@assets/ข่าวประชาสัมพันธ์/ศึกษาต่อในระดับอุดมศึกษา/1.jpg";
-import img26 from "@assets/ข่าวประชาสัมพันธ์/วันคล้ายวันพระบรมราชสมภพ/1.jpg";
-import img27 from "@assets/ข่าวประชาสัมพันธ์/บริจาคโลหิตเพื่อช่วยชีวิตเพื่อนมนุษย์/1.jpg";
-import img28 from "@assets/ข่าวประชาสัมพันธ์/เข้าร่วมประชุมคณะทำงานการขับเคลื่อนพัฒนากำลังแรงงานรองอุตสาหกรรมยานยนต์ไฟฟ้า/1.jpg";
-import img29 from "@assets/ข่าวประชาสัมพันธ์/ตรวจนักเรียน/1.jpg";
-import img30 from "@assets/ข่าวประชาสัมพันธ์/วิ่งคว้าหมอก/1.jpg";
-import img31 from "@assets/ข่าวประชาสัมพันธ์/งาน/1.jpg";
-import img32 from "@assets/ข่าวประชาสัมพันธ์/ถุงมือ/Artboard.png";
-import img33 from "@assets/ข่าวประชาสัมพันธ์/ผู้ป่วย/Artboard.png";
-import img34 from "@assets/ข่าวประชาสัมพันธ์/23/2.jpg";
-import img35 from "@assets/ข่าวประชาสัมพันธ์/24/10.jpg";
-import img36 from "@assets/ข่าวประชาสัมพันธ์/25/09.jpg";
-import img37 from "@assets/ข่าวประชาสัมพันธ์/26/1.jpg";
-import img38 from "@assets/ข่าวประชาสัมพันธ์/27/12.jpg";
-import img39 from "@assets/ข่าวประชาสัมพันธ์/Christmas/414695255_2773267582825763_1711551872989877101_n.jpg";
-import img40 from "@assets/ข่าวประชาสัมพันธ์/28/1.jpg";
-import img41 from "@assets/ข่าวประชาสัมพันธ์/29/01.jpg";
-import img42 from "@assets/ข่าวประชาสัมพันธ์/30/25.jpg";
-import img43 from "@assets/ข่าวประชาสัมพันธ์/31/07.jpg";
-import img44 from "@assets/ข่าวประชาสัมพันธ์/32/13.jpg";
-import img45 from "@assets/ข่าวประชาสัมพันธ์/33/3.jpg";
-import img46 from "@assets/ข่าวประชาสัมพันธ์/33/5.jpg";
-import img47 from "@assets/ข่าวประชาสัมพันธ์/34/1.jpg";
-import img48 from "@assets/ข่าวประชาสัมพันธ์/35/3.png";
-import img49 from "@assets/ข่าวประชาสัมพันธ์/36/1.png";
-import img50 from "@assets/ข่าวประชาสัมพันธ์/37/01.jpg";
-import img51 from "@assets/ข่าวประชาสัมพันธ์/38/1.jpg";
-import img52 from "@assets/ข่าวประชาสัมพันธ์/39/1.jpg";
+import img19 from "@assets/ข่าวประชาสัมพันธ์/18/3.webp";
+import img20 from "@assets/ข่าวประชาสัมพันธ์/19/1.webp";
+import img21 from "@assets/ข่าวประชาสัมพันธ์/20/1.webp";
+import img22 from "@assets/ข่าวประชาสัมพันธ์/21/1.webp";
+import img23 from "@assets/ข่าวประชาสัมพันธ์/รูปจบการศึกษา/1.webp";
+import img24 from "@assets/ข่าวประชาสัมพันธ์/22/1.webp";
+import img25 from "@assets/ข่าวประชาสัมพันธ์/ศึกษาต่อในระดับอุดมศึกษา/1.webp";
+import img26 from "@assets/ข่าวประชาสัมพันธ์/วันคล้ายวันพระบรมราชสมภพ/1.webp";
+import img27 from "@assets/ข่าวประชาสัมพันธ์/บริจาคโลหิตเพื่อช่วยชีวิตเพื่อนมนุษย์/1.webp";
+import img28 from "@assets/ข่าวประชาสัมพันธ์/เข้าร่วมประชุมคณะทำงานการขับเคลื่อนพัฒนากำลังแรงงานรองอุตสาหกรรมยานยนต์ไฟฟ้า/1.webp";
+import img29 from "@assets/ข่าวประชาสัมพันธ์/ตรวจนักเรียน/1.webp";
+import img30 from "@assets/ข่าวประชาสัมพันธ์/วิ่งคว้าหมอก/1.webp";
+import img31 from "@assets/ข่าวประชาสัมพันธ์/งาน/1.webp";
+import img32 from "@assets/ข่าวประชาสัมพันธ์/ถุงมือ/Artboard.webp";
+import img33 from "@assets/ข่าวประชาสัมพันธ์/ผู้ป่วย/Artboard.webp";
+import img34 from "@assets/ข่าวประชาสัมพันธ์/23/2.webp";
+import img35 from "@assets/ข่าวประชาสัมพันธ์/24/10.webp";
+import img36 from "@assets/ข่าวประชาสัมพันธ์/25/09.webp";
+import img37 from "@assets/ข่าวประชาสัมพันธ์/26/1.webp";
+import img38 from "@assets/ข่าวประชาสัมพันธ์/27/12.webp";
+import img39 from "@assets/ข่าวประชาสัมพันธ์/Christmas/414695255_2773267582825763_1711551872989877101_n.webp";
+import img40 from "@assets/ข่าวประชาสัมพันธ์/28/1.webp";
+import img41 from "@assets/ข่าวประชาสัมพันธ์/29/01.webp";
+import img42 from "@assets/ข่าวประชาสัมพันธ์/30/25.webp";
+import img43 from "@assets/ข่าวประชาสัมพันธ์/31/07.webp";
+import img44 from "@assets/ข่าวประชาสัมพันธ์/32/13.webp";
+import img45 from "@assets/ข่าวประชาสัมพันธ์/33/3.webp";
+import img46 from "@assets/ข่าวประชาสัมพันธ์/33/5.webp";
+import img47 from "@assets/ข่าวประชาสัมพันธ์/34/1.webp";
+import img48 from "@assets/ข่าวประชาสัมพันธ์/35/3.webp";
+import img49 from "@assets/ข่าวประชาสัมพันธ์/36/1.webp";
+import img50 from "@assets/ข่าวประชาสัมพันธ์/37/01.webp";
+import img51 from "@assets/ข่าวประชาสัมพันธ์/38/1.webp";
+import img52 from "@assets/ข่าวประชาสัมพันธ์/39/1.webp";
 import img53 from "@assets/ข่าวประชาสัมพันธ์/39/2.gif";
 import img54 from "@assets/ข่าวประชาสัมพันธ์/39/3.gif";
 import img55 from "@assets/ข่าวประชาสัมพันธ์/39/4.gif";
 import img56 from "@assets/ข่าวประชาสัมพันธ์/39/5.gif";
 import img57 from "@assets/ข่าวประชาสัมพันธ์/39/6.gif";
-import img58 from "@assets/ข่าวประชาสัมพันธ์/40/05.jpg";
-import img59 from "@assets/ข่าวประชาสัมพันธ์/41/1.jpg";
+import img58 from "@assets/ข่าวประชาสัมพันธ์/40/05.webp";
+import img59 from "@assets/ข่าวประชาสัมพันธ์/41/1.webp";
 import img60 from "@assets/ข่าวประชาสัมพันธ์/41/1.gif";
-import img61 from "@assets/error.png";
-import img62 from "@assets/error.png";
-import img63 from "@assets/ข่าวประชาสัมพันธ์/41/2.jpg";
-import img64 from "@assets/ข่าวประชาสัมพันธ์/42/01.jpg";
-import img65 from "@assets/ข่าวประชาสัมพันธ์/43/22.jpg";
-import img66 from "@assets/ข่าวประชาสัมพันธ์/44/1.1.jpg";
-import img67 from "@assets/ข่าวประชาสัมพันธ์/44/6.jpg";
-import img68 from "@assets/ข่าวประชาสัมพันธ์/45/1.jpg";
-import img69 from "@assets/ข่าวประชาสัมพันธ์/46/56.jpg";
+import img61 from "@assets/error.webp";
+import img62 from "@assets/error.webp";
+import img63 from "@assets/ข่าวประชาสัมพันธ์/41/2.webp";
+import img64 from "@assets/ข่าวประชาสัมพันธ์/42/01.webp";
+import img65 from "@assets/ข่าวประชาสัมพันธ์/43/22.webp";
+import img66 from "@assets/ข่าวประชาสัมพันธ์/44/1.1.webp";
+import img67 from "@assets/ข่าวประชาสัมพันธ์/44/6.webp";
+import img68 from "@assets/ข่าวประชาสัมพันธ์/45/1.webp";
+import img69 from "@assets/ข่าวประชาสัมพันธ์/46/56.webp";
 
 import { Worship } from "../homepage/ข่าวประชาสัมพันธ์/Worship";
 import { SurrenderStudent } from "../homepage/ข่าวประชาสัมพันธ์/SurrenderStudent";
@@ -144,13 +144,31 @@ import { Business } from "../homepage/ข่าวประชาสัมพั
 import { TeachersDay } from "../homepage/ข่าวประชาสัมพันธ์/TeachersDay";
 import { TeachersDay1 } from "../homepage/ข่าวประชาสัมพันธ์/TeachersDay1";
 
-import img70 from "@assets/ข่าวประชาสัมพันธ์/47/01.jpg";
-import img71 from "@assets/ข่าวประชาสัมพันธ์/48/1.jpg";
-import img72 from "@assets/ข่าวประชาสัมพันธ์/48/2.jpg";
+import img70 from "@assets/ข่าวประชาสัมพันธ์/47/01.webp";
+import img71 from "@assets/ข่าวประชาสัมพันธ์/48/1.webp";
+import img72 from "@assets/ข่าวประชาสัมพันธ์/48/2.webp";
+import img73 from "@assets/ข่าวประชาสัมพันธ์/49/03.webp";
+import img74 from "@assets/ข่าวประชาสัมพันธ์/50/01.webp";
+
 import { DokjaanGame } from "../homepage/ข่าวประชาสัมพันธ์/DokjaanGame";
 import { DokjaanGame1 } from "../homepage/ข่าวประชาสัมพันธ์/DokjaanGame1";
+import { VNET1 } from "../homepage/ข่าวประชาสัมพันธ์/VNET1";
+import { Set1 } from "../homepage/ข่าวประชาสัมพันธ์/Set1";
 
 export const DataPressRelease = [
+  {
+    name: `Set 1`,
+    backgroundImage: img74,
+    review: `เทคนิคกันทร์ของเเทร่ กับบรรยากาศงานกีฬาสีภายในนักเรียน...`,
+    url: <Set1 />,
+  },
+  {
+    name: `18 มกราคม 2567`,
+    backgroundImage: img73,
+    review: `วิทยาลัยเทคนิคกันทรลักษ์
+    ได้เข้ารับการตรวจเยี่ยมติดตามสนาม...`,
+    url: <VNET1 />,
+  },
   {
     name: `ประชาสัมพันธ์`,
     backgroundImage: img72,

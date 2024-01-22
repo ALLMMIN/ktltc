@@ -1,10 +1,10 @@
 import { Layout } from "@/Layout";
 import { Card, CardHeader } from "@material-tailwind/react";
 
-import pac1 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/ad2.jpg";
-import pac2 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/12.jpg";
-import pac3 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/18.jpg";
-import pac4 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/25.jpg";
+import pac1 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/ad2.webp";
+import pac2 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/12.webp";
+import pac3 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/18.webp";
+import pac4 from "@assets/ข้อมูลบุคลากร/ฝ่ายแผนงานและความร่วมมือ/25.webp";
 
 export const PlansAndCooperation = () => {
   return (

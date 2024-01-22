@@ -3,12 +3,12 @@ import {
   ElectronicBidding,
   OrderToAppointACommittee,
 } from "@/components/homepage/ข่าวประกวดราคา/Story";
-import na1 from "@assets/ข่าวประกวดราคา/na1.png";
-import na2 from "@assets/ข่าวประกวดราคา/na2.png";
-import na3 from "@assets/ข่าวประกวดราคา/na3.png";
-import img1 from "@assets/ข่าวประกวดราคา/na1.png";
-import img2 from "@assets/ข่าวประกวดราคา/na2.png";
-import img3 from "@assets/ข่าวประกวดราคา/na3.png";
+import na1 from "@assets/ข่าวประกวดราคา/na1.webp";
+import na2 from "@assets/ข่าวประกวดราคา/na2.webp";
+import na3 from "@assets/ข่าวประกวดราคา/na3.webp";
+import img1 from "@assets/ข่าวประกวดราคา/na1.webp";
+import img2 from "@assets/ข่าวประกวดราคา/na2.webp";
+import img3 from "@assets/ข่าวประกวดราคา/na3.webp";
 export const DataSwipperBiddingNews = [
   // {
   //        name: `กรุณาเพิ่มข้อมูล`,

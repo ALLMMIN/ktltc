@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Card, Flex, Typography } from "antd";
-import l1 from "@assets/01.png";
+import l1 from "@assets/01.webp";
 
 const cardStyle: React.CSSProperties = {
   width: 620,

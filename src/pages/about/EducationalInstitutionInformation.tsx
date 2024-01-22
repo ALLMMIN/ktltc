@@ -1,5 +1,5 @@
 import { Layout } from "@/Layout";
-import ab1 from "@assets/logo.png";
+import ab1 from "@assets/logo.webp";
 
 export const Educationa = () => {
   return (

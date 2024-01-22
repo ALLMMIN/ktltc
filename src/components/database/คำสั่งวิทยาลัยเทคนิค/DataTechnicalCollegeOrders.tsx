@@ -1,10 +1,10 @@
-import na1 from "@assets/คำสั่งวิทยาลัย/na1.png";
-import na2 from "@assets/คำสั่งวิทยาลัย/na2.png";
-import na3 from "@assets/คำสั่งวิทยาลัย/na3.png";
-// import error from "@assets/error.png";
-import img1 from "@assets/คำสั่งวิทยาลัย/na1.png";
-import img2 from "@assets/คำสั่งวิทยาลัย/na2.png";
-import img3 from "@assets/คำสั่งวิทยาลัย/na3.png";
+import na1 from "@assets/คำสั่งวิทยาลัย/na1.webp";
+import na2 from "@assets/คำสั่งวิทยาลัย/na2.webp";
+import na3 from "@assets/คำสั่งวิทยาลัย/na3.webp";
+// import error from "@assets/error.webp";
+import img1 from "@assets/คำสั่งวิทยาลัย/na1.webp";
+import img2 from "@assets/คำสั่งวิทยาลัย/na2.webp";
+import img3 from "@assets/คำสั่งวิทยาลัย/na3.webp";
 import {
   OrderToAppointACommittee,
   OrderToAppointATeacherAdvisor,

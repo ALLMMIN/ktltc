@@ -4,11 +4,11 @@ import {
   CardBody,
   Typography,
 } from "@material-tailwind/react";
-import za1 from "@assets/ผู้บริหาร/11.png";
-import za2 from "@assets/ผู้บริหาร/22.png";
-import za3 from "@assets/ผู้บริหาร/33.png";
-import za4 from "@assets/ผู้บริหาร/44.png";
-import za5 from "@assets/ผู้บริหาร/55.png";
+import za1 from "@assets/ผู้บริหาร/11.webp";
+import za2 from "@assets/ผู้บริหาร/22.webp";
+import za3 from "@assets/ผู้บริหาร/33.webp";
+import za4 from "@assets/ผู้บริหาร/44.webp";
+import za5 from "@assets/ผู้บริหาร/55.webp";
 import { Layout } from "@/Layout";
 
 export const Executive = () => {

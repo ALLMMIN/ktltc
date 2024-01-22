@@ -1,13 +1,13 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import l1 from "@assets/01.png";
-import l2 from "@assets/02.png";
-import l3 from "@assets/03.png";
-import l4 from "@assets/05.png";
-import l5 from "@assets/06.png";
-import l6 from "@assets/07.png";
-import l7 from "@assets/08.png";
-import l8 from "@assets/09.png";
+import l1 from "@assets/01.webp";
+import l2 from "@assets/02.webp";
+import l3 from "@assets/03.webp";
+import l4 from "@assets/05.webp";
+import l5 from "@assets/06.webp";
+import l6 from "@assets/07.webp";
+import l7 from "@assets/08.webp";
+import l8 from "@assets/09.webp";
 
 export default function PhotosPage() {
   return (

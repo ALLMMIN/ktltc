@@ -1,5 +1,5 @@
 import { Typography } from "@material-tailwind/react";
-import l4 from "@assets/04.jpg";
+import l4 from "@assets/04.webp";
 import { TabsCustomAnimation } from "./TabsCustomAnimation";
 export default function Welcome() {
   return (

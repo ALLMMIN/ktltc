@@ -1,5 +1,5 @@
 import { Layout } from "@/Layout";
-import Group1 from "@assets/Group_12549.jpg";
+import Group1 from "@assets/Group_12549.webp";
 
 export const ReportResults = () => {
   return (
