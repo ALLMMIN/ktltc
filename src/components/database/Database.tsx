@@ -1190,8 +1190,534 @@ import img1654 from "@assets/ข่าวประชาสัมพันธ์
 import img1655 from "@assets/ข่าวประชาสัมพันธ์/45/2.jpg";
 import img1656 from "@assets/ข่าวประชาสัมพันธ์/45/3.jpg";
 import img1657 from "@assets/ข่าวประชาสัมพันธ์/45/4.jpg";
+import img1658 from "@assets/ข่าวประชาสัมพันธ์/46/01.jpg";
+import img1659 from "@assets/ข่าวประชาสัมพันธ์/46/02.jpg";
+import img1660 from "@assets/ข่าวประชาสัมพันธ์/46/03.jpg";
+import img1661 from "@assets/ข่าวประชาสัมพันธ์/46/04.jpg";
+import img1662 from "@assets/ข่าวประชาสัมพันธ์/46/05.jpg";
+import img1663 from "@assets/ข่าวประชาสัมพันธ์/46/06.jpg";
+import img1664 from "@assets/ข่าวประชาสัมพันธ์/46/07.jpg";
+import img1665 from "@assets/ข่าวประชาสัมพันธ์/46/08.jpg";
+import img1666 from "@assets/ข่าวประชาสัมพันธ์/46/09.jpg";
+import img1667 from "@assets/ข่าวประชาสัมพันธ์/46/10.jpg";
+import img1668 from "@assets/ข่าวประชาสัมพันธ์/46/11.jpg";
+import img1669 from "@assets/ข่าวประชาสัมพันธ์/46/12.jpg";
+import img1670 from "@assets/ข่าวประชาสัมพันธ์/46/13.jpg";
+import img1671 from "@assets/ข่าวประชาสัมพันธ์/46/14.jpg";
+import img1672 from "@assets/ข่าวประชาสัมพันธ์/46/15.jpg";
+import img1673 from "@assets/ข่าวประชาสัมพันธ์/46/16.jpg";
+import img1674 from "@assets/ข่าวประชาสัมพันธ์/46/17.jpg";
+import img1675 from "@assets/ข่าวประชาสัมพันธ์/46/18.jpg";
+import img1676 from "@assets/ข่าวประชาสัมพันธ์/46/19.jpg";
+import img1677 from "@assets/ข่าวประชาสัมพันธ์/46/20.jpg";
+import img1678 from "@assets/ข่าวประชาสัมพันธ์/46/21.jpg";
+import img1679 from "@assets/ข่าวประชาสัมพันธ์/46/22.jpg";
+import img1680 from "@assets/ข่าวประชาสัมพันธ์/46/23.jpg";
+import img1681 from "@assets/ข่าวประชาสัมพันธ์/46/24.jpg";
+import img1682 from "@assets/ข่าวประชาสัมพันธ์/46/25.jpg";
+import img1683 from "@assets/ข่าวประชาสัมพันธ์/46/26.jpg";
+import img1684 from "@assets/ข่าวประชาสัมพันธ์/46/27.jpg";
+import img1685 from "@assets/ข่าวประชาสัมพันธ์/46/28.jpg";
+import img1686 from "@assets/ข่าวประชาสัมพันธ์/46/29.jpg";
+import img1687 from "@assets/ข่าวประชาสัมพันธ์/46/30.jpg";
+import img1688 from "@assets/ข่าวประชาสัมพันธ์/46/31.jpg";
+import img1689 from "@assets/ข่าวประชาสัมพันธ์/46/32.jpg";
+import img1690 from "@assets/ข่าวประชาสัมพันธ์/46/33.jpg";
+import img1691 from "@assets/ข่าวประชาสัมพันธ์/46/34.jpg";
+import img1692 from "@assets/ข่าวประชาสัมพันธ์/46/35.jpg";
+import img1693 from "@assets/ข่าวประชาสัมพันธ์/46/36.jpg";
+import img1694 from "@assets/ข่าวประชาสัมพันธ์/46/37.jpg";
+import img1695 from "@assets/ข่าวประชาสัมพันธ์/46/38.jpg";
+import img1696 from "@assets/ข่าวประชาสัมพันธ์/46/39.jpg";
+import img1697 from "@assets/ข่าวประชาสัมพันธ์/46/40.jpg";
+import img1698 from "@assets/ข่าวประชาสัมพันธ์/46/41.jpg";
+import img1699 from "@assets/ข่าวประชาสัมพันธ์/46/42.jpg";
+import img1700 from "@assets/ข่าวประชาสัมพันธ์/46/43.jpg";
+import img1701 from "@assets/ข่าวประชาสัมพันธ์/46/44.jpg";
+import img1702 from "@assets/ข่าวประชาสัมพันธ์/46/45.jpg";
+import img1703 from "@assets/ข่าวประชาสัมพันธ์/46/46.jpg";
+import img1704 from "@assets/ข่าวประชาสัมพันธ์/46/47.jpg";
+import img1705 from "@assets/ข่าวประชาสัมพันธ์/46/48.jpg";
+import img1706 from "@assets/ข่าวประชาสัมพันธ์/46/49.jpg";
+import img1707 from "@assets/ข่าวประชาสัมพันธ์/46/50.jpg";
+import img1708 from "@assets/ข่าวประชาสัมพันธ์/46/51.jpg";
+import img1709 from "@assets/ข่าวประชาสัมพันธ์/46/52.jpg";
+import img1710 from "@assets/ข่าวประชาสัมพันธ์/46/53.jpg";
+import img1711 from "@assets/ข่าวประชาสัมพันธ์/46/54.jpg";
+import img1712 from "@assets/ข่าวประชาสัมพันธ์/46/55.jpg";
+import img1713 from "@assets/ข่าวประชาสัมพันธ์/46/56.jpg";
+import img1714 from "@assets/ข่าวประชาสัมพันธ์/46/57.jpg";
+import img1715 from "@assets/ข่าวประชาสัมพันธ์/46/58.jpg";
+import img1716 from "@assets/ข่าวประชาสัมพันธ์/46/59.jpg";
+import img1717 from "@assets/ข่าวประชาสัมพันธ์/46/60.jpg";
+import img1718 from "@assets/ข่าวประชาสัมพันธ์/46/61.jpg";
+import img1719 from "@assets/ข่าวประชาสัมพันธ์/46/62.jpg";
+import img1720 from "@assets/ข่าวประชาสัมพันธ์/46/63.jpg";
+import img1721 from "@assets/ข่าวประชาสัมพันธ์/46/64.jpg";
+import img1722 from "@assets/ข่าวประชาสัมพันธ์/46/65.jpg";
 
+import img1723 from "@assets/ข่าวประชาสัมพันธ์/47/01.jpg";
+import img1724 from "@assets/ข่าวประชาสัมพันธ์/47/02.jpg";
+import img1725 from "@assets/ข่าวประชาสัมพันธ์/47/03.jpg";
+import img1726 from "@assets/ข่าวประชาสัมพันธ์/47/04.jpg";
+import img1727 from "@assets/ข่าวประชาสัมพันธ์/47/05.jpg";
+import img1728 from "@assets/ข่าวประชาสัมพันธ์/47/06.jpg";
+import img1729 from "@assets/ข่าวประชาสัมพันธ์/47/07.jpg";
+import img1730 from "@assets/ข่าวประชาสัมพันธ์/47/08.jpg";
+import img1731 from "@assets/ข่าวประชาสัมพันธ์/47/09.jpg";
+import img1732 from "@assets/ข่าวประชาสัมพันธ์/47/10.jpg";
+import img1733 from "@assets/ข่าวประชาสัมพันธ์/47/11.jpg";
+import img1734 from "@assets/ข่าวประชาสัมพันธ์/47/12.jpg";
+import img1735 from "@assets/ข่าวประชาสัมพันธ์/47/13.jpg";
+import img1736 from "@assets/ข่าวประชาสัมพันธ์/47/14.jpg";
+import img1737 from "@assets/ข่าวประชาสัมพันธ์/47/15.jpg";
+import img1738 from "@assets/ข่าวประชาสัมพันธ์/47/16.jpg";
+import img1739 from "@assets/ข่าวประชาสัมพันธ์/47/17.jpg";
+import img1740 from "@assets/ข่าวประชาสัมพันธ์/47/18.jpg";
+import img1741 from "@assets/ข่าวประชาสัมพันธ์/47/19.jpg";
+import img1742 from "@assets/ข่าวประชาสัมพันธ์/47/20.jpg";
+import img1743 from "@assets/ข่าวประชาสัมพันธ์/47/21.jpg";
+import img1744 from "@assets/ข่าวประชาสัมพันธ์/47/22.jpg";
+import img1745 from "@assets/ข่าวประชาสัมพันธ์/47/23.jpg";
+import img1746 from "@assets/ข่าวประชาสัมพันธ์/47/24.jpg";
+import img1747 from "@assets/ข่าวประชาสัมพันธ์/47/25.jpg";
+import img1748 from "@assets/ข่าวประชาสัมพันธ์/47/26.jpg";
+import img1749 from "@assets/ข่าวประชาสัมพันธ์/47/27.jpg";
+import img1750 from "@assets/ข่าวประชาสัมพันธ์/47/28.jpg";
+import img1751 from "@assets/ข่าวประชาสัมพันธ์/47/29.jpg";
+import img1752 from "@assets/ข่าวประชาสัมพันธ์/47/30.jpg";
+import img1753 from "@assets/ข่าวประชาสัมพันธ์/47/31.jpg";
+import img1754 from "@assets/ข่าวประชาสัมพันธ์/47/32.jpg";
+import img1755 from "@assets/ข่าวประชาสัมพันธ์/47/33.jpg";
+import img1756 from "@assets/ข่าวประชาสัมพันธ์/47/34.jpg";
+import img1757 from "@assets/ข่าวประชาสัมพันธ์/47/35.jpg";
+import img1758 from "@assets/ข่าวประชาสัมพันธ์/47/36.jpg";
+import img1759 from "@assets/ข่าวประชาสัมพันธ์/47/37.jpg";
+import img1760 from "@assets/ข่าวประชาสัมพันธ์/47/38.jpg";
+import img1761 from "@assets/ข่าวประชาสัมพันธ์/47/39.jpg";
+import img1762 from "@assets/ข่าวประชาสัมพันธ์/47/40.jpg";
+import img1763 from "@assets/ข่าวประชาสัมพันธ์/47/41.jpg";
+import img1764 from "@assets/ข่าวประชาสัมพันธ์/47/42.jpg";
+import img1765 from "@assets/ข่าวประชาสัมพันธ์/47/43.jpg";
+import img1766 from "@assets/ข่าวประชาสัมพันธ์/47/44.jpg";
+import img1767 from "@assets/ข่าวประชาสัมพันธ์/47/45.jpg";
+import img1768 from "@assets/ข่าวประชาสัมพันธ์/47/46.jpg";
+import img1769 from "@assets/ข่าวประชาสัมพันธ์/47/47.jpg";
+import img1770 from "@assets/ข่าวประชาสัมพันธ์/47/48.jpg";
+import img1771 from "@assets/ข่าวประชาสัมพันธ์/47/49.jpg";
+import img1772 from "@assets/ข่าวประชาสัมพันธ์/47/50.jpg";
+import img1773 from "@assets/ข่าวประชาสัมพันธ์/47/51.jpg";
+import img1774 from "@assets/ข่าวประชาสัมพันธ์/47/52.jpg";
+import img1775 from "@assets/ข่าวประชาสัมพันธ์/47/53.jpg";
+import img1776 from "@assets/ข่าวประชาสัมพันธ์/47/54.jpg";
+import img1777 from "@assets/ข่าวประชาสัมพันธ์/47/55.jpg";
+import img1778 from "@assets/ข่าวประชาสัมพันธ์/47/56.jpg";
+import img1779 from "@assets/ข่าวประชาสัมพันธ์/47/57.jpg";
+import img1780 from "@assets/ข่าวประชาสัมพันธ์/47/58.jpg";
+import img1781 from "@assets/ข่าวประชาสัมพันธ์/47/59.jpg";
+import img1782 from "@assets/ข่าวประชาสัมพันธ์/47/60.jpg";
+import img1783 from "@assets/ข่าวประชาสัมพันธ์/47/61.jpg";
+import img1784 from "@assets/ข่าวประชาสัมพันธ์/47/62.jpg";
+import img1785 from "@assets/ข่าวประชาสัมพันธ์/47/63.jpg";
+import img1786 from "@assets/ข่าวประชาสัมพันธ์/47/64.jpg";
+import img1787 from "@assets/ข่าวประชาสัมพันธ์/47/65.jpg";
 
+export const Data62 = [
+  {
+    img62: img1723,
+  },
+  {
+    img62: img1724,
+  },
+  {
+    img62: img1725,
+  },
+  {
+    img62: img1726,
+  },
+  {
+    img62: img1727,
+  },
+  {
+    img62: img1728,
+  },
+  {
+    img62: img1729,
+  },
+  {
+    img62: img1730,
+  },
+  {
+    img62: img1731,
+  },
+  {
+    img62: img1732,
+  },
+  {
+    img62: img1733,
+  },
+  {
+    img62: img1734,
+  },
+  {
+    img62: img1735,
+  },
+  {
+    img62: img1736,
+  },
+  {
+    img62: img1737,
+  },
+  {
+    img62: img1738,
+  },
+  {
+    img62: img1739,
+  },
+  {
+    img62: img1740,
+  },
+  {
+    img62: img1741,
+  },
+  {
+    img62: img1742,
+  },
+  {
+    img62: img1743,
+  },
+  {
+    img62: img1744,
+  },
+  {
+    img62: img1745,
+  },
+  {
+    img62: img1746,
+  },
+  {
+    img62: img1747,
+  },
+  {
+    img62: img1748,
+  },
+  {
+    img62: img1749,
+  },
+  {
+    img62: img1750,
+  },
+  {
+    img62: img1751,
+  },
+  {
+    img62: img1752,
+  },
+  {
+    img62: img1753,
+  },
+  {
+    img62: img1754,
+  },
+  {
+    img62: img1755,
+  },
+  {
+    img62: img1756,
+  },
+  {
+    img62: img1757,
+  },
+  {
+    img62: img1758,
+  },
+  {
+    img62: img1759,
+  },
+  {
+    img62: img1760,
+  },
+  {
+    img62: img1761,
+  },
+  {
+    img62: img1762,
+  },
+  {
+    img62: img1763,
+  },
+  {
+    img62: img1764,
+  },
+  {
+    img62: img1765,
+  },
+  {
+    img62: img1766,
+  },
+  {
+    img62: img1767,
+  },
+  {
+    img62: img1768,
+  },
+  {
+    img62: img1769,
+  },
+  {
+    img62: img1770,
+  },
+  {
+    img62: img1771,
+  },
+  {
+    img62: img1772,
+  },
+  {
+    img62: img1773,
+  },
+  {
+    img62: img1774,
+  },
+  {
+    img62: img1775,
+  },
+  {
+    img62: img1776,
+  },
+  {
+    img62: img1777,
+  },
+  {
+    img62: img1778,
+  },
+  {
+    img62: img1779,
+  },
+  {
+    img62: img1780,
+  },
+  {
+    img62: img1781,
+  },
+  {
+    img62: img1782,
+  },
+  {
+    img62: img1783,
+  },
+  {
+    img62: img1784,
+  },
+  {
+    img62: img1785,
+  },
+  {
+    img62: img1786,
+  },
+  {
+    img62: img1787,
+  },
+];
+// img1787
+export const Data61 = [
+  {
+    img61: img1658,
+  },
+  {
+    img61: img1659,
+  },
+  {
+    img61: img1660,
+  },
+  {
+    img61: img1661,
+  },
+  {
+    img61: img1662,
+  },
+  {
+    img61: img1663,
+  },
+  {
+    img61: img1664,
+  },
+  {
+    img61: img1665,
+  },
+  {
+    img61: img1666,
+  },
+  {
+    img61: img1667,
+  },
+  {
+    img61: img1668,
+  },
+  {
+    img61: img1669,
+  },
+  {
+    img61: img1670,
+  },
+  {
+    img61: img1671,
+  },
+  {
+    img61: img1672,
+  },
+  {
+    img61: img1673,
+  },
+  {
+    img61: img1674,
+  },
+  {
+    img61: img1675,
+  },
+  {
+    img61: img1676,
+  },
+  {
+    img61: img1677,
+  },
+  {
+    img61: img1678,
+  },
+  {
+    img61: img1679,
+  },
+  {
+    img61: img1680,
+  },
+  {
+    img61: img1681,
+  },
+  {
+    img61: img1682,
+  },
+  {
+    img61: img1683,
+  },
+  {
+    img61: img1684,
+  },
+  {
+    img61: img1685,
+  },
+  {
+    img61: img1686,
+  },
+  {
+    img61: img1687,
+  },
+  {
+    img61: img1688,
+  },
+  {
+    img61: img1689,
+  },
+  {
+    img61: img1690,
+  },
+  {
+    img61: img1691,
+  },
+  {
+    img61: img1692,
+  },
+  {
+    img61: img1693,
+  },
+  {
+    img61: img1694,
+  },
+  {
+    img61: img1695,
+  },
+  {
+    img61: img1696,
+  },
+  {
+    img61: img1697,
+  },
+  {
+    img61: img1698,
+  },
+  {
+    img61: img1699,
+  },
+  {
+    img61: img1700,
+  },
+  {
+    img61: img1701,
+  },
+  {
+    img61: img1702,
+  },
+  {
+    img61: img1703,
+  },
+  {
+    img61: img1704,
+  },
+  {
+    img61: img1705,
+  },
+  {
+    img61: img1706,
+  },
+  {
+    img61: img1707,
+  },
+  {
+    img61: img1708,
+  },
+  {
+    img61: img1709,
+  },
+  {
+    img61: img1710,
+  },
+  {
+    img61: img1711,
+  },
+  {
+    img61: img1712,
+  },
+  {
+    img61: img1713,
+  },
+  {
+    img61: img1714,
+  },
+  {
+    img61: img1715,
+  },
+  {
+    img61: img1716,
+  },
+  {
+    img61: img1717,
+  },
+  {
+    img61: img1718,
+  },
+  {
+    img61: img1719,
+  },
+  {
+    img61: img1720,
+  },
+  {
+    img61: img1721,
+  },
+  {
+    img61: img1722,
+  },
+];
+// img1722
 export const Data60 = [
   {
     img60: img1654,
@@ -1205,7 +1731,7 @@ export const Data60 = [
   {
     img60: img1657,
   },
-]
+];
 
 export const Data59 = [
   {

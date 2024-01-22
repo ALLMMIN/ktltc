@@ -134,14 +134,31 @@ import img65 from "@assets/ข่าวประชาสัมพันธ์/4
 import img66 from "@assets/ข่าวประชาสัมพันธ์/44/1.1.jpg";
 import img67 from "@assets/ข่าวประชาสัมพันธ์/44/6.jpg";
 import img68 from "@assets/ข่าวประชาสัมพันธ์/45/1.jpg";
+import img69 from "@assets/ข่าวประชาสัมพันธ์/46/56.jpg";
 
 import { Worship } from "../homepage/ข่าวประชาสัมพันธ์/Worship";
 import { SurrenderStudent } from "../homepage/ข่าวประชาสัมพันธ์/SurrenderStudent";
 import { KingVajiraklao } from "../homepage/ข่าวประชาสัมพันธ์/KingVajiraklao";
 import { ProfessionalStandards } from "../homepage/ข่าวประชาสัมพันธ์/ProfessionalStandards";
 import { Business } from "../homepage/ข่าวประชาสัมพันธ์/Business";
+import { TeachersDay } from "../homepage/ข่าวประชาสัมพันธ์/TeachersDay";
+import { TeachersDay1 } from "../homepage/ข่าวประชาสัมพันธ์/TeachersDay1";
+
+import img70 from "@assets/ข่าวประชาสัมพันธ์/47/01.jpg";
 
 export const DataPressRelease = [
+  {
+    name: `๑๖ มกรา มาบรรจบ`,
+    backgroundImage: img70,
+    review: ` ขอน้อมนบ ระลึกคุณ ครูผู้สอน ที่ได้มอบ ความรู้ ความอาทร...`,
+    url: <TeachersDay1 />,
+  },
+  {
+    name: `วิทยาลัยเทคนิคกันทรลักษ์`,
+    backgroundImage: img69,
+    review: `ขอเเสดงความยินดีอย่างยิ่ง กับคณะผู้บริหารสถานศึกษา ครู เเละ...`,
+    url: <TeachersDay />,
+  },
   {
     name: `วิทยาลัยเทคนิคกันทรลักษ์`,
     backgroundImage: img68,
