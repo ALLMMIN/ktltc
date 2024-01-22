@@ -1255,7 +1255,6 @@ import img1719 from "@assets/ข่าวประชาสัมพันธ์
 import img1720 from "@assets/ข่าวประชาสัมพันธ์/46/63.jpg";
 import img1721 from "@assets/ข่าวประชาสัมพันธ์/46/64.jpg";
 import img1722 from "@assets/ข่าวประชาสัมพันธ์/46/65.jpg";
-
 import img1723 from "@assets/ข่าวประชาสัมพันธ์/47/01.jpg";
 import img1724 from "@assets/ข่าวประชาสัมพันธ์/47/02.jpg";
 import img1725 from "@assets/ข่าวประชาสัมพันธ์/47/03.jpg";
@@ -1321,6 +1320,20 @@ import img1784 from "@assets/ข่าวประชาสัมพันธ์
 import img1785 from "@assets/ข่าวประชาสัมพันธ์/47/63.jpg";
 import img1786 from "@assets/ข่าวประชาสัมพันธ์/47/64.jpg";
 import img1787 from "@assets/ข่าวประชาสัมพันธ์/47/65.jpg";
+import img1788 from "@assets/ข่าวประชาสัมพันธ์/48/1.jpg";
+import img1789 from "@assets/ข่าวประชาสัมพันธ์/48/2.jpg";
+
+export const Data64 = [
+  {
+    img64: img1789,
+  },
+];
+
+export const Data63 = [
+  {
+    img63: img1788,
+  },
+];
 
 export const Data62 = [
   {

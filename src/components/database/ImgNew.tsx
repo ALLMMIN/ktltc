@@ -25,6 +25,7 @@ export const Data20 = [
     img20: img21,
   },
 ];
+
 export const Data19 = [
   {
     img19: img20,

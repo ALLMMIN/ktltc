@@ -145,8 +145,24 @@ import { TeachersDay } from "../homepage/ข่าวประชาสัมพ
 import { TeachersDay1 } from "../homepage/ข่าวประชาสัมพันธ์/TeachersDay1";
 
 import img70 from "@assets/ข่าวประชาสัมพันธ์/47/01.jpg";
+import img71 from "@assets/ข่าวประชาสัมพันธ์/48/1.jpg";
+import img72 from "@assets/ข่าวประชาสัมพันธ์/48/2.jpg";
+import { DokjaanGame } from "../homepage/ข่าวประชาสัมพันธ์/DokjaanGame";
+import { DokjaanGame1 } from "../homepage/ข่าวประชาสัมพันธ์/DokjaanGame1";
 
 export const DataPressRelease = [
+  {
+    name: `ประชาสัมพันธ์`,
+    backgroundImage: img72,
+    review: `วิทยาลัยเทคนิคกันทรลักษ์ ขอเชิญชวน...`,
+    url: <DokjaanGame1 />,
+  },
+  {
+    name: `ประชาสัมพันธ์`,
+    backgroundImage: img71,
+    review: `วิทยาลัยเทคนิคกันทรลักษ์ ขอเชิญชวน...`,
+    url: <DokjaanGame />,
+  },
   {
     name: `๑๖ มกรา มาบรรจบ`,
     backgroundImage: img70,
