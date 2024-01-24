@@ -1050,29 +1050,12 @@ import img1513 from "@assets/ข่าวประชาสัมพันธ์
 import img1514 from "@assets/ข่าวประชาสัมพันธ์/42/02.webp";
 import img1515 from "@assets/ข่าวประชาสัมพันธ์/42/03.webp";
 import img1516 from "@assets/ข่าวประชาสัมพันธ์/42/04.webp";
-import img1517 from "@assets/ข่าวประชาสัมพันธ์/42/05.webp";
-import img1518 from "@assets/ข่าวประชาสัมพันธ์/42/06.webp";
-import img1519 from "@assets/ข่าวประชาสัมพันธ์/42/07.webp";
-import img1520 from "@assets/ข่าวประชาสัมพันธ์/42/08.webp";
-import img1521 from "@assets/ข่าวประชาสัมพันธ์/42/09.webp";
-import img1522 from "@assets/ข่าวประชาสัมพันธ์/42/10.webp";
-import img1523 from "@assets/ข่าวประชาสัมพันธ์/42/11.webp";
-import img1524 from "@assets/ข่าวประชาสัมพันธ์/42/12.webp";
-import img1525 from "@assets/ข่าวประชาสัมพันธ์/42/13.webp";
-import img1526 from "@assets/ข่าวประชาสัมพันธ์/42/14.webp";
-import img1527 from "@assets/ข่าวประชาสัมพันธ์/42/15.webp";
-import img1528 from "@assets/ข่าวประชาสัมพันธ์/42/16.webp";
-import img1529 from "@assets/ข่าวประชาสัมพันธ์/42/17.webp";
-import img1530 from "@assets/ข่าวประชาสัมพันธ์/42/18.webp";
-import img1531 from "@assets/ข่าวประชาสัมพันธ์/42/19.webp";
-import img1532 from "@assets/ข่าวประชาสัมพันธ์/42/20.webp";
 import img1533 from "@assets/ข่าวประชาสัมพันธ์/42/21.webp";
 import img1534 from "@assets/ข่าวประชาสัมพันธ์/42/22.webp";
 import img1535 from "@assets/ข่าวประชาสัมพันธ์/42/23.webp";
 import img1536 from "@assets/ข่าวประชาสัมพันธ์/42/24.webp";
 import img1537 from "@assets/ข่าวประชาสัมพันธ์/42/25.webp";
 import img1538 from "@assets/ข่าวประชาสัมพันธ์/42/26.webp";
-import img1539 from "@assets/ข่าวประชาสัมพันธ์/42/27.webp";
 import img1540 from "@assets/ข่าวประชาสัมพันธ์/42/28.webp";
 import img1541 from "@assets/ข่าวประชาสัมพันธ์/42/29.webp";
 import img1542 from "@assets/ข่าวประชาสัมพันธ์/42/30.webp";
@@ -1333,11 +1316,6 @@ import img1797 from "@assets/ข่าวประชาสัมพันธ์
 import img1798 from "@assets/ข่าวประชาสัมพันธ์/49/09.webp";
 import img1799 from "@assets/ข่าวประชาสัมพันธ์/49/10.webp";
 import img1800 from "@assets/ข่าวประชาสัมพันธ์/49/11.webp";
-import img1801 from "@assets/ข่าวประชาสัมพันธ์/50/01.webp";
-import img1802 from "@assets/ข่าวประชาสัมพันธ์/50/02.webp";
-import img1803 from "@assets/ข่าวประชาสัมพันธ์/50/03.webp";
-import img1804 from "@assets/ข่าวประชาสัมพันธ์/50/04.webp";
-import img1805 from "@assets/ข่าวประชาสัมพันธ์/50/05.webp";
 import img1806 from "@assets/ข่าวประชาสัมพันธ์/50/06.webp";
 import img1807 from "@assets/ข่าวประชาสัมพันธ์/50/07.webp";
 import img1808 from "@assets/ข่าวประชาสัมพันธ์/50/08.webp";
@@ -1381,38 +1359,9 @@ import img1845 from "@assets/ข่าวประชาสัมพันธ์
 import img1846 from "@assets/ข่าวประชาสัมพันธ์/50/46.webp";
 import img1847 from "@assets/ข่าวประชาสัมพันธ์/50/47.webp";
 import img1848 from "@assets/ข่าวประชาสัมพันธ์/50/48.webp";
-import img1849 from "@assets/ข่าวประชาสัมพันธ์/50/49.webp";
-import img1850 from "@assets/ข่าวประชาสัมพันธ์/50/50.webp";
-import img1851 from "@assets/ข่าวประชาสัมพันธ์/50/51.webp";
-import img1852 from "@assets/ข่าวประชาสัมพันธ์/50/52.webp";
-import img1853 from "@assets/ข่าวประชาสัมพันธ์/50/53.webp";
-import img1854 from "@assets/ข่าวประชาสัมพันธ์/50/54.webp";
-import img1855 from "@assets/ข่าวประชาสัมพันธ์/50/55.webp";
-import img1856 from "@assets/ข่าวประชาสัมพันธ์/50/56.webp";
-import img1857 from "@assets/ข่าวประชาสัมพันธ์/50/57.webp";
-import img1858 from "@assets/ข่าวประชาสัมพันธ์/50/58.webp";
-import img1859 from "@assets/ข่าวประชาสัมพันธ์/50/59.webp";
-import img1860 from "@assets/ข่าวประชาสัมพันธ์/50/60.webp";
 
 export const Data66 = [
-  {
-    img66: img1801,
-  },
-  {
-    img66: img1802,
-  },
-  {
-    img66: img1803,
-  },
-  {
-    img66: img1804,
-  },
-  {
-    img66: img1805,
-  },
-  {
-    img66: img1806,
-  },
+  { img66: img1806 },
   {
     img66: img1807,
   },
@@ -1538,42 +1487,6 @@ export const Data66 = [
   },
   {
     img66: img1848,
-  },
-  {
-    img66: img1849,
-  },
-  {
-    img66: img1850,
-  },
-  {
-    img66: img1851,
-  },
-  {
-    img66: img1852,
-  },
-  {
-    img66: img1853,
-  },
-  {
-    img66: img1854,
-  },
-  {
-    img66: img1855,
-  },
-  {
-    img66: img1856,
-  },
-  {
-    img66: img1857,
-  },
-  {
-    img66: img1858,
-  },
-  {
-    img66: img1859,
-  },
-  {
-    img66: img1860,
   },
 ];
 // img1860
@@ -2287,54 +2200,6 @@ export const Data55 = [
     img55: img1516,
   },
   {
-    img55: img1517,
-  },
-  {
-    img55: img1518,
-  },
-  {
-    img55: img1519,
-  },
-  {
-    img55: img1520,
-  },
-  {
-    img55: img1521,
-  },
-  {
-    img55: img1522,
-  },
-  {
-    img55: img1523,
-  },
-  {
-    img55: img1524,
-  },
-  {
-    img55: img1525,
-  },
-  {
-    img55: img1526,
-  },
-  {
-    img55: img1527,
-  },
-  {
-    img55: img1528,
-  },
-  {
-    img55: img1529,
-  },
-  {
-    img55: img1530,
-  },
-  {
-    img55: img1531,
-  },
-  {
-    img55: img1532,
-  },
-  {
     img55: img1533,
   },
   {
@@ -2351,9 +2216,6 @@ export const Data55 = [
   },
   {
     img55: img1538,
-  },
-  {
-    img55: img1539,
   },
   {
     img55: img1540,
