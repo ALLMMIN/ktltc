@@ -131,7 +131,7 @@ import img62 from "@assets/error.webp";
 import img63 from "@assets/ข่าวประชาสัมพันธ์/41/2.webp";
 import img64 from "@assets/ข่าวประชาสัมพันธ์/42/01.webp";
 import img65 from "@assets/ข่าวประชาสัมพันธ์/43/22.webp";
-// import img66 from "@assets/ข่าวประชาสัมพันธ์/44/1.1.webp";
+import img66 from "@assets/ข่าวประชาสัมพันธ์/44/1.1.webp";
 import img67 from "@assets/ข่าวประชาสัมพันธ์/44/6.webp";
 import img68 from "@assets/ข่าวประชาสัมพันธ์/45/1.webp";
 import img69 from "@assets/ข่าวประชาสัมพันธ์/46/56.webp";
@@ -148,7 +148,7 @@ import img70 from "@assets/ข่าวประชาสัมพันธ์/4
 import img71 from "@assets/ข่าวประชาสัมพันธ์/48/1.webp";
 import img72 from "@assets/ข่าวประชาสัมพันธ์/48/2.webp";
 import img73 from "@assets/ข่าวประชาสัมพันธ์/49/03.webp";
-import img74 from "@assets/ข่าวประชาสัมพันธ์/50/01.webp";
+import img74 from "@assets/ข่าวประชาสัมพันธ์/50/06.webp";
 
 import { DokjaanGame } from "../homepage/ข่าวประชาสัมพันธ์/DokjaanGame";
 import { DokjaanGame1 } from "../homepage/ข่าวประชาสัมพันธ์/DokjaanGame1";
@@ -209,7 +209,7 @@ export const DataPressRelease = [
     name: `พระบาทสมเด็จพระปรเมนทรรามาธิบดีศรีสินทรมหาวชิราลงกรณ์
     พระวชิรเกล้าเจ้าอยู่หัว พระราชทานพระบรมราโชวาท
     สำหรับลงพิมพ์ในหนังสือวันเด็กแห่งชาติปี ๒๕๖๗`,
-    // backgroundImage: img66,
+    backgroundImage: img66,
     review: ` `,
     url: <KingVajiraklao />,
   },
