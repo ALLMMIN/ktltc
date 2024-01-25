@@ -11,15 +11,12 @@ export function Layout(props: SuspenseProps) {
         <TopHeader />
         <NavbarWithMegaMenu />
         <div className="bg-gray-200">
-          <div className="  max-w-full ">{props.children}</div>
+          <div className="max-w-full">{props.children}</div>
           <SpeedInsights />
         </div>
         <div>
           <Footer />
         </div>
-      </div>
-      <div className="container-top">
-        <a href="#" className="top"></a>
       </div>
     </>
   );
