@@ -9,6 +9,7 @@ import {
 import { Typography } from "@material-tailwind/react";
 // import { Data65 } from "@components/database/Database";
 import { Data66 } from "@components/database/Database";
+import { Link } from "react-router-dom";
 
 export function Set1() {
   const [open, setOpen] = React.useState(false);
@@ -32,6 +33,12 @@ export function Set1() {
                 กับงานพิธีเปิดพร้อม ขบวนพเหรด กองเชียร์ เเละ รอบชิงชนะเลิศ
                 ไว้เจอกับนะครับน้อนๆ
               </p>
+              <Link
+                className="text-lg"
+                to="https://drive.google.com/drive/folders/1DOCOly_wqOFXMdkHZpv5C2YR4GDZIMop?fbclid=IwAR0TLCxbV00zfjT1Kv3wAjQOHGRnLLYP9MYI8eknJh80n6xdPf8_OfLeMwI"
+              >
+                รูปภาพเพิ่มเติม
+              </Link>
               <div className="justify-center flex-col ">
                 <div>
                   {Data66.map((Data66) => (
