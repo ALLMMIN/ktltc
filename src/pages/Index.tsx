@@ -14,6 +14,9 @@ const Index = () => {
     <>
       <body>
         <Layout>
+          <div className="text-center bg-red-500 text-white">
+            ยุติการอัพเดทข้อมูล 15/01/2567
+          </div>
           <PhotosPage />
           <Welcome />
           <PressRelease />

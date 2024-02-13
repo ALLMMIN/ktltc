@@ -8,6 +8,7 @@ import l5 from "@assets/06.webp";
 import l6 from "@assets/07.webp";
 import l7 from "@assets/08.webp";
 import l8 from "@assets/09.webp";
+import l9 from "@assets/sorry.png";
 
 export default function PhotosPage() {
   return (
@@ -22,10 +23,13 @@ export default function PhotosPage() {
         showStatus={false}
       >
         <div>
+          <img src={l9} className="h-1/2" />
+        </div>
+        <div>
           <img src={l6} />
         </div>
         <div>
-          <img src={l1} className="h-1/2" />
+          <img src={l1} />
         </div>
         <div>
           <img src={l2} />
