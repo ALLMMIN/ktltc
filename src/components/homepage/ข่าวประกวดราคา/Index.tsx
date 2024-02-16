@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function BiddingNews() {
   return (
     <>
-      <div className="py-6 flex justify-center">
-        <div className="text-2xl font-bold ">ข่าวประกวดราคา</div>
-        <div className="text-2xl text-glo-100 pl-2 uppercase font-bold  ">
+      <div className="py-6">
+        <div className="text-2xl font-bold text-center">ข่าวประกวดราคา</div>
+        <div className="text-2xl text-glo-100 pl-2 uppercase font-bold text-center">
           Bidding News
         </div>
       </div>
