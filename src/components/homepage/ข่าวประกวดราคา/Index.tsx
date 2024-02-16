@@ -1,4 +1,5 @@
-import SwipperBiddingNews from "./SwipperBiddingNews";
+import { Link } from "react-router-dom";
+// import SwipperBiddingNews from "./SwipperBiddingNews";
 
 export default function BiddingNews() {
   return (
@@ -10,7 +11,11 @@ export default function BiddingNews() {
         </div>
       </div>
 
-      <SwipperBiddingNews />
+      {/* <SwipperBiddingNews /> */}
+
+      <Link to={"/BiddingNewsPage"} className="items-center">
+        <div className="text-center pb-16 text-red-500">เนื้อหาทั้งหมด</div>
+      </Link>
     </>
   );
 }

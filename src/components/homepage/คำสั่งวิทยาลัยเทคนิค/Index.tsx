@@ -1,4 +1,5 @@
-import SwipperTechnicalCollegeOrders from "./SwipperTechnicalCollegeOrders";
+import { Link } from "react-router-dom";
+// import SwipperTechnicalCollegeOrders from "./SwipperTechnicalCollegeOrders";
 
 export default function TechnicalCollegeOrders() {
   return (
@@ -11,7 +12,11 @@ export default function TechnicalCollegeOrders() {
           Technical College Orders
         </div>
       </div>
-      <SwipperTechnicalCollegeOrders />
+      {/* <SwipperTechnicalCollegeOrders /> */}
+
+      <Link to={"/TechnicalCollegeOrdersPage"} className="items-center">
+        <div className="text-center pb-16 text-red-500">เนื้อหาทั้งหมด</div>
+      </Link>
     </>
   );
 }

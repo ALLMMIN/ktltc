@@ -13,6 +13,11 @@ import PlansAndCooperationTitle from "./pages/service-department/PlansAndCoopera
 import GovernmentActionPlantitle from "./pages/about/GovernmentActionPlan";
 import StrategicPlantitle from "./pages/about/StrategicPlan";
 import IndexService from "./pages/service/Index";
+import SwipperPressReleasePage from "./components/homepage/ข่าวประชาสัมพันธ์/SwipperPressReleasePage";
+import IndexNewsletterPublicRelationsPage from "./components/homepage/จดหมายข่าวประชาสัมพันธ์/IndexNewsletterPublicRelationsPage";
+import NewsAnnouncementPage from "./components/homepage/ข่าวประกาศ/NewsAnnouncementPage";
+import BiddingNewsPage from "./components/homepage/ข่าวประกวดราคา/BiddingNewsPage";
+import TechnicalCollegeOrdersPage from "./components/homepage/คำสั่งวิทยาลัยเทคนิค/TechnicalCollegeOrdersPage";
 
 export default function () {
   return (
@@ -26,6 +31,23 @@ export default function () {
         <Route path="/ExecutiveDirectory" element={<ExecutiveDirectory />} />
         <Route path="/StrategicPlantitle" element={<StrategicPlantitle />} />
         <Route path="/IndexService" element={<IndexService />} />
+        <Route path="/BiddingNewsPage" element={<BiddingNewsPage />} />
+        <Route
+          path="/TechnicalCollegeOrdersPage"
+          element={<TechnicalCollegeOrdersPage />}
+        />
+        <Route
+          path="/IndexNewsletterPublicRelationsPage"
+          element={<IndexNewsletterPublicRelationsPage />}
+        />
+        <Route
+          path="/NewsAnnouncementPage"
+          element={<NewsAnnouncementPage />}
+        />
+        <Route
+          path="/SwipperPressReleasePage"
+          element={<SwipperPressReleasePage />}
+        />
         <Route
           path="/GovernmentActionPlantitle"
           element={<GovernmentActionPlantitle />}

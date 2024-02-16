@@ -1,4 +1,5 @@
-import SwipperNewsAnnouncement from "./SwipperNewsAnnouncement";
+import { Link } from "react-router-dom";
+// import SwipperNewsAnnouncement from "./SwipperNewsAnnouncement";
 
 export default function NewsAnnouncement() {
   return (
@@ -11,7 +12,11 @@ export default function NewsAnnouncement() {
           </div>
         </div>
 
-        <SwipperNewsAnnouncement />
+        {/* <SwipperNewsAnnouncement /> */}
+
+        <Link to={"/NewsAnnouncementPage"} className="items-center">
+          <div className="text-center pb-16 text-red-500">เนื้อหาทั้งหมด</div>
+        </Link>
       </div>
     </>
   );
