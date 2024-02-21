@@ -1,4 +1,4 @@
-// import SwipperNewsletterPublicRelations from "./SwipperNewsletterPublicRelations";
+import SwipperNewsletterPublicRelations from "./SwipperNewsletterPublicRelations";
 
 import { Link } from "react-router-dom";
 
@@ -12,12 +12,15 @@ export default function IndexNewsletterPublicRelations() {
         <div className="text-2xl text-glo-100 pl-2 uppercase font-bold text-center">
           Newsletter Public Relations
         </div>
+        <Link
+          to={"/IndexNewsletterPublicRelationsPage"}
+          className="items-center"
+        >
+          <div className="text-end pr-8 text-red-500">เนื้อหาทั้งหมด</div>
+        </Link>
       </div>
 
-      {/* <SwipperNewsletterPublicRelations /> */}
-      <Link to={"/IndexNewsletterPublicRelationsPage"} className="items-center">
-        <div className="text-center pb-16 text-red-500">เนื้อหาทั้งหมด</div>
-      </Link>
+      <SwipperNewsletterPublicRelations />
     </>
   );
 }

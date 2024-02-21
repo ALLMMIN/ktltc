@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import SwipperNewsAnnouncement from "./SwipperNewsAnnouncement";
+import SwipperNewsAnnouncement from "./SwipperNewsAnnouncement";
 
 export default function NewsAnnouncement() {
   return (
@@ -10,13 +10,12 @@ export default function NewsAnnouncement() {
           <div className="text-2xl text-glo-100 pl-2 uppercase font-bold text-center">
             News Announcement
           </div>
+          <Link to={"/NewsAnnouncementPage"} className="items-center">
+            <div className="text-end pr-8 text-red-500">เนื้อหาทั้งหมด</div>
+          </Link>
         </div>
 
-        {/* <SwipperNewsAnnouncement /> */}
-
-        <Link to={"/NewsAnnouncementPage"} className="items-center">
-          <div className="text-center pb-16 text-red-500">เนื้อหาทั้งหมด</div>
-        </Link>
+        <SwipperNewsAnnouncement />
       </div>
     </>
   );

@@ -19,7 +19,7 @@ const Index = () => {
           </div>
           <PhotosPage />
           <Welcome />
-          <PressRelease />
+          <PressRelease /> 
           <IndexNewsletterPublicRelations />
           <NewsAnnouncement />
           <BiddingNews />

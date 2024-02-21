@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import SwipperPressRelease from "./SwipperPressRelease";
+import SwipperPressRelease from "./SwipperPressRelease";
 
 export default function PressRelease() {
   return (
@@ -9,13 +9,12 @@ export default function PressRelease() {
         <div className="text-2xl text-glo-100 pl-2 uppercase font-bold text-center">
           PressRelease
         </div>
+        <Link to={"/SwipperPressReleasePage"} className="items-center">
+          <div className="text-end pr-8 text-red-500">เนื้อหาทั้งหมด</div>
+        </Link>
       </div>
 
-      {/* <SwipperPressRelease /> */}
-
-      <Link to={"/SwipperPressReleasePage"} className="items-center">
-        <div className="text-center pb-16 text-red-500">เนื้อหาทั้งหมด</div>
-      </Link>
+      <SwipperPressRelease />
     </>
   );
 }
