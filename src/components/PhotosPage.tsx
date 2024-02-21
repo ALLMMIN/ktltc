@@ -5,7 +5,7 @@ import l2 from "@assets/02.webp";
 import l4 from "@assets/05.webp";
 import l5 from "@assets/06.webp";
 import l6 from "@assets/07.webp";
-import l7 from "@assets/sorry.png";
+import l7 from "@assets/sorry.webp";
 
 export default function PhotosPage() {
   return (
